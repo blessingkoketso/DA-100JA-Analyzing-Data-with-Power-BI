@@ -26,7 +26,7 @@
 
 このタスクでは、**MySettings.txt** ファイルを開き、アカウントの詳細を記録します。
 
-*インストラクターからアカウントが提供されており、このアカウントを使用してすべてのラボを完了することが重要です。アカウントが提供されなかった場合は、https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial を参照し、このラボを続ける前にアカウントを作成する手順に従ってください*。
+*インストラクターからアカウントが提供されており、このアカウントを使用してすべてのラボを完了することが重要です。アカウントが提供されなかった場合は、https://powerbi.microsoft.com/ja-jp/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial を参照し、このラボを続ける前にアカウントを作成する手順に従ってください*。
 
 1. Explorer を開くには、タスク バーで 「Explorer」 プログラムのショートカットをクリックします。
 
@@ -77,7 +77,7 @@
 16. Microsoft Edge ウィンドウは開いたままにします。
 
   
-?Ae 
+ 
 
 ### タスク 3: ワークスペースを作成する
 
@@ -118,7 +118,7 @@
 25. **ラボ 03D** のワークスペースにコンテンツを発行します。
 
   
-?Ae 
+ 
 
 ### タスク 4: Power BI Desktop を開く
 
@@ -143,7 +143,7 @@
     ***ラボ 02A***でデータ モデルの開発を開始します。
 
   
-?Ae 
+
 
 ### タスク 5: ラボ データベースを更新する
 
