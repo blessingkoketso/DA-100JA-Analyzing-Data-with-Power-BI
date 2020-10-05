@@ -155,7 +155,7 @@
 
 2. 「**Windows PowerShell**」 ウィンドウで、アカウントの入力を求めるメッセージが表示されたら、**MySettings.txt**ファイルからアカウント名を貼り付けます。
 
-    *ヒント: **Windows PowerShell** ウィンドウに 貼り付けるには、**アカウント** プロンプト*で右クリックします*。
+    *ヒント: **Windows PowerShell** ウィンドウに 貼り付けるには、**アカウント** プロンプト*で右クリックします。
 
     ![画像 29](Linked_image_Files/PowerBI_Lab01A_image15.png)
 

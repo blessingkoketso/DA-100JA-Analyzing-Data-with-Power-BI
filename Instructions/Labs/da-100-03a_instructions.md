@@ -188,7 +188,7 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5644](Linked_image_Files/PowerBI_Lab03A_image21.png)
 
-7. すべての列をオフにするには、**（すべての列を選択）**の項目をオフにします。
+7. すべての列をオフにするには、**（すべての列を選択）** の項目をオフにします。
 
 8. **EnglishProductSubcategoryName** および **DimProductCategory** 列を確認します。
 
