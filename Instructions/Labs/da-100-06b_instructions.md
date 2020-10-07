@@ -44,7 +44,7 @@ Power BI Desktop での DAX の使用、パート 2
 
 	![画像 47](Linked_image_Files/PowerBI_Lab06B_image3.png)
 
-	* **リージョン**階層には、 **グループ**、**国**、および **リージョン** のレベルが含まれることを思い出してください*。
+***リージョン**階層には、 **グループ**、**国**、および **リージョン** のレベルが含まれることを思い出してください*。
 
 7. ビジュアルを書式設定するには、「**視覚化**」 ウィンドウの下にある 「**書式設定**」 ウィンドウを選択します。   
 
@@ -77,7 +77,7 @@ Power BI Desktop での DAX の使用、パート 2
 
 	```
 	Sales All Region =
-	CALCULATE(SUM(Sales「Sales」), REMOVEFILTERS(Region))
+	CALCULATE(SUM(Sales[Sales]), REMOVEFILTERS(Region))
 	```
 
 	*CALCULATE() 関数は、フィルター コンテキストを操作するために使用される強力な関数です。最初の引数は、式またはメジャーを受け取ります (メジャーは名前付きの式に過ぎません)。後続の引数を使用すると、フィルター コンテキストを変更できます*。
@@ -104,9 +104,9 @@ Power BI Desktop での DAX の使用、パート 2
 	```
 	Sales % All Region =
 	DIVIDE(
-       SUM(Sales「Sales」),
+       SUM(Sales[Sales]),
        CALCULATE(
-            SUM(Sales「Sales」),
+            SUM(Sales[Sales]),
             REMOVEFILTERS(Region)
        )
 	)
@@ -129,10 +129,10 @@ Power BI Desktop での DAX の使用、パート 2
 	```
 	Sales % Country =
 	DIVIDE(
-       SUM(Sales「Sales」),
+       SUM(Sales[Sales]),
        CALCULATE(
-           SUM(Sales「Sales」),
-           REMOVEFILTERS(Region「Region」)
+           SUM(Sales[Sales]),
+           REMOVEFILTERS(Region[Region])
        )
 	)
 	```
@@ -157,12 +157,12 @@ Power BI Desktop での DAX の使用、パート 2
 	```
 	Sales % Country =
 	IF(
-        ISINSCOPE(Region「Region」),
+        ISINSCOPE(Region[Region]),
     	DIVIDE(
-        	SUM(Sales「Sales」),
+        	SUM(Sales[Sales]),
         	CALCULATE(
-                SUM(Sales「Sales」),
-                REMOVEFILTERS(Region「Region)
+                SUM(Sales[Sales]),
+                REMOVEFILTERS(Region[Region)
             )
         ) 
 	)
@@ -182,12 +182,12 @@ Power BI Desktop での DAX の使用、パート 2
 	```
 	Sales % Group =
 	DIVIDE(
-        SUM(Sales「Sales」),
+        SUM(Sales[Sales]),
         CALCULATE(
-             SUM(Sales「Sales」),
+             SUM(Sales[Sales]),
              REMOVEFILTERS(
-                 Region「Region」,
-                 Region「Country」
+                 Region[Region],
+                 Region[Country]
              )
         )
 	)
@@ -205,15 +205,15 @@ Power BI Desktop での DAX の使用、パート 2
 	```
 	Sales % Group =
 	IF(
-        ISINSCOPE(Region「Region」)
-             || ISINSCOPE(Region「Country」),
+        ISINSCOPE(Region[Region])
+             || ISINSCOPE(Region[Country]),
         DIVIDE(
-            SUM(Sales「Sales」),
+            SUM(Sales[Sales]),
             CALCULATE(
-                SUM(Sales「Sales」),
+                SUM(Sales[Sales]),
                 REMOVEFILTERS(
-                     Region「Region」,
-                     Region「Country」
+                     Region[Region],
+                     Region[Country]
                 )
             )
         )
@@ -247,7 +247,7 @@ Power BI Desktop での DAX の使用、パート 2
 
 	```
 	Sales YTD =  
-	TOTALYTD(SUM(Sales「Sales」), 'Date'「Date」, "6-30")
+	TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
 	```
 
 	*TOTALYTD() 関数は、指定した日付列に対する式 (この場合は **Sales** 列の合計) を評価します。この日付列は、**ラボ 06A** で行ったように、日付テーブルとしてマークされた日付テーブルに属している必要があります。この関数は、1 年の最後の日付を表す 3 番目のオプションの引数を取ることもできます。この日付が存在しない場合、12 月 31 日がその年の最後の日付になります。アドベンチャー ワークスの場合、その年の最後の月が 6 月となるため、「6-30」が使用されます*。
@@ -272,17 +272,17 @@ Power BI Desktop での DAX の使用、パート 2
 	**DAX**
 
 	```
-	売上高前年比成長 =
+	Sales YoY Growth =
 	VAR SalesPriorYear =
     	CALCULATE(
-        	SUM(Sales「Sales」),
+        	SUM(Sales[Sales]),
         	PARALLELPERIOD(
-            	Date'「Date」,
+            	'Date'[Date],
             	-12,
            	 MONTH
        	    )
         )
-	返却
+	RETURN
         SalesPriorYear
 	```
 	***Sales YoY Growth** メジャーの式は、変数を宣言します。変数は数式ロジックを簡略化するのに役立ち、数式内で式を複数回評価する必要がある場合により効率的です (YoY 成長ロジックの場合に該当) 。変数は一意の名前で宣言され、メジャー式は **RETURN** キーワードの後に出力する必要があります*。
@@ -305,19 +305,19 @@ Power BI Desktop での DAX の使用、パート 2
 	**DAX**
 
 	```
-	売上高前年比成長 =
+	Sales YoY Growth =
 	VAR SalesPriorYear =
     	CALCULATE(
-        	  SUM(Sales「Sales」),
+        	  SUM(Sales[Sales]),
         	  PARALLELPERIOD(
-              Date'「Date」,
+              'Date'[Date],
               -12,
               MONTH
             )
 	)
-	返却
+	RETURN
        DIVIDE(
-           (SUM(Sales「Sales」) - SalesPriorYear),
+           (SUM(Sales[Sales]) - SalesPriorYear),
            SalesPriorYear
        )
 	```
