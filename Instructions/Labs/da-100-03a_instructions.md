@@ -30,7 +30,7 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 1](Linked_image_Files/PowerBI_Lab03A_image1.png)
 
-2. クエリの名前を変更するには、「**クエリ設定**」 ウィンドウ (右側) の 「**名前**」 ボックスで、テキストを **営業担当**に置き換えて、**Enter** キーを押 します。       
+2. クエリの名前を変更するには、「**クエリ設定**」 ウィンドウ (右側) の 「**名前**」 ボックスで、テキストを **Salesperson**に置き換えて、**Enter** キーを押 します。       
 
     *クエリ名はモデル テーブル名を決定します。簡潔でわかりやすい名前を定義することをお勧めします*。
 
@@ -76,7 +76,7 @@ Power BI Desktop へのデータの読み込み
 
 12. 列を含めるには、次の 6 つの列を確認します。
 
-    * 従業員キー
+    * EmployeeKey
 
     * EmployeeNationalIDAlternateKey
 
@@ -84,7 +84,7 @@ Power BI Desktop へのデータの読み込み
 
     * LastName
 
-    * タイトル
+    * Title
 
     * EmailAddress
 
@@ -110,7 +110,7 @@ Power BI Desktop へのデータの読み込み
 
 18. 「**列の結合**」 ウィンドウの 「**区切り記号**」 ボックスの一覧で、「**スペース**」 を選択します。 
 
-19. 「**新しい列名**」 ボックスで、テキストを **営業担当者** に置き換えます。
+19. 「**新しい列名**」 ボックスで、テキストを **Salesperson** に置き換えます。
 
     ![画像 119](Linked_image_Files/PowerBI_Lab03A_image14.png)
 
@@ -124,13 +124,13 @@ Power BI Desktop へのデータの読み込み
 
     *列の名前を変更するように指示された場合、説明どおりに列の名前を正確に変更することが重要です*。
 
-23. 前の手順を使用して、**電子メールアドレス**列の名前を **UPN** に変更します。
+23. 前の手順を使用して、**EmailAddress**列の名前を **UPN** に変更します。
 
     *UPN は、ユーザー プリンシパル名の頭字語です。この列の値は、**ラボ 05A**で行レベルのセキュリティを設定するときに使用されます*。
 
 24. 左下のステータス バーで、クエリに 5 列と 18 行が含まれているかどうかを確認します。
 
-    ![画像 5638](Linked_image_Files/PowerBI_Lab03A_image16.png)
+
 
     *クエリで正しい結果が得られない場合は、後のラボを完了できなくなるため、先に進まないでください。正しい結果が表示されない場合は、このタスクの手順に戻って問題を修正してください*。
 
@@ -154,7 +154,7 @@ Power BI Desktop へのデータの読み込み
 
 6. ステータス バーで、クエリに 2列と 39 行があることを確認します。
 
-    ![画像 5641](Linked_image_Files/PowerBI_Lab03A_image19.png)
+
 
 ### タスク 3: 製品クエリを構成する
 
@@ -166,7 +166,7 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5643](Linked_image_Files/PowerBI_Lab03A_image20.png)
 
-2. クエリの名前を**製品**に変更します。
+2. クエリの名前を**Product**に変更します。
 
 3. **FinishedGoodsFlag** 列を見つけ、列をフィルタリングして、完成品（つまり、TRUE）である製品を取得します。
 
@@ -178,7 +178,7 @@ Power BI Desktop へのデータの読み込み
 
     * StandardCost
 
-    * 色
+    * Color
 
     * DimProductSubcategory
 
@@ -200,33 +200,33 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5647](Linked_image_Files/PowerBI_Lab03A_image23.png)
 
-    *クエリ列名は常に一意である必要があります。このチェックボックスをオンにすると、各列の前に展開された列名が追加されます（この場合は **DimProductSubcategory**）。選択した列が**製品**クエリの列と衝突しないことがわかっているため、オプションは選択解除されています*。
+    *クエリ列名は常に一意である必要があります。このチェックボックスをオンにすると、各列の前に展開された列名が追加されます（この場合は **DimProductSubcategory**）。選択した列が**Product**クエリの列と衝突しないことがわかっているため、オプションは選択解除されています*。
 
 10. 「**OK**」 をクリックします。
 
     ![画像 5648](Linked_image_Files/PowerBI_Lab03A_image24.png)
 
-11. 変換によって 2 つの列が生成され、**DimProductCategory** 列が削除されていることに注意してください。
+11. 変換によって 2 つの列が生成され、**DimProductSubcategory** 列が削除されていることに注意してください。
 
 12. **DimProductCategory** を展開し、**EnglishProductCategoryName** 列のみを紹介します。
 
 13. 次の 4 つの列の名前を変更します。
 
-    * **EnglishProductName**から**製品**
+    * **EnglishProductName**から**Product**
 
-    * **StandardCost**から**標準コスト** (スペースを含む) 
+    * **StandardCost**から**Standard Cost** (スペースを含む) 
 
-    * **EnglishProductSubcategoryName** から**サブカテゴリ**へ
+    * **EnglishProductSubcategoryName** から**Subcategory**へ
 
-    * **EnglishProductCategoryName** から**カテゴリ**へ
+    * **EnglishProductCategoryName** から**Category**へ
 
 14. ステータス バーで、クエリに 6 つの列と 397 行があることを確認します。
 
-    ![画像 5651](Linked_image_Files/PowerBI_Lab03A_image25.png)
+    
 
 ### タスク 4: リセラー クエリを設定する
 
-このタスクでは、**リセラー** クエリを構成します。
+このタスクでは、**Reseller** クエリを構成します。
 
 1. **DimReseller** クエリを選択します。 
 
@@ -240,13 +240,13 @@ Power BI Desktop へのデータの読み込み
 
     * BusinessType
 
-    * RellerName
+    * ResellerName
 
     * DimGeography
 
 4. 「**DimGeography**」 列を展開して、次の 3 つの列のみを含めます。
 
-    * 市区町村
+    * City
 
     * StateProvinceName
 
@@ -254,22 +254,22 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5656](Linked_image_Files/PowerBI_Lab03A_image27.png)
 
-5. 「**ビジネス タイプ**」 列ヘッダーで、下向き矢印をクリックし、アイテムとウェアハウスの誤ったスペルを確認します。
+5. 「**BusinessType**」 列ヘッダーで、下向き矢印をクリックし、アイテムとウェアハウスの誤ったスペルを確認します。
 
     ![画像 2](Linked_image_Files/PowerBI_Lab03A_image28.png)
 
   
 ‎ 
 
-6. 「**ビジネス タイプ**」 列ヘッダーを右クリックして、「**値の置換**」 を選択します。
+6. 「**BusinessType**」 列ヘッダーを右クリックして、「**値の置換**」 を選択します。
 
     ![画像 4](Linked_image_Files/PowerBI_Lab03A_image29.png)
 
 7. 「**値の置換**」 ウィンドウで、次の値を構成します。 
 
-    * 「**検索する値**」 ボックスに「**ウェア ハウス**」と入力します。
+    * 「**検索する値**」 ボックスに「**Ware House**(スペースあり)」と入力します。
 
-    * 「**置換後の文字列**」 ボックスに「**倉庫**」と入力します。
+    * 「**置換後の文字列**」 ボックスに「**Warehouse**(スペースなし)」と入力します。
 
     ![画像 5](Linked_image_Files/PowerBI_Lab03A_image30.png)
 
@@ -279,17 +279,16 @@ Power BI Desktop へのデータの読み込み
 
 9. 次の 4 つの列の名前を変更します。
 
-    * **BusinessType** 〜 **ビジネス タイプ** (スペースを含む)
+    * **BusinessType** 〜 **Business Type** (スペースを含む)
 
-    * **ResellerName** から**リセラー**へ
+    * **ResellerName** から**Reseller**へ
 
-    * **StateProvinceName** から**都道府県**
+    * **StateProvinceName** から**State-Province**
 
-    * **EnglishCountryRegionName** から**国の地域**
+    * **EnglishCountryRegionName** から**Country-Region**
 
 10. ステータス バーで、クエリに 6 列と 701 行が含まれているかどうかを確認します。
 
-    ![画像 5657](Linked_image_Files/PowerBI_Lab03A_image32.png)
 
 ### タスク 5: 地域クエリを構成する
 
@@ -299,7 +298,7 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5659](Linked_image_Files/PowerBI_Lab03A_image33.png)
 
-2. クエリの名前を 「**地域**」 に変更します。 
+2. クエリの名前を 「**Region**」 に変更します。 
 
 3. **SalesTerritoryAlternateKey** 列にフィルターを適用して、値 0 (ゼロ) を削除します。
 
@@ -307,7 +306,7 @@ Power BI Desktop へのデータの読み込み
 
 4. 次の列を除くすべての列を削除します。
 
-    * 営業地域キー
+    * SalesTerritoryKey
 
     * SalesTerritoryRegion
 
@@ -317,15 +316,14 @@ Power BI Desktop へのデータの読み込み
 
 5. 次の 3 つの列の名前を変更します。
 
-    * **SalesTerritoryRegion** から**リージョン**へ
+    * **SalesTerritoryRegion** から**Region**へ
 
-    * **SalesTerritoryCountry** から**国**へ
+    * **SalesTerritoryCountry** から**Country**へ
 
-    * **SalesTerritoryCountry** から**グループ**へ
+    * **SalesTerritoryGroup** から**Group**へ
 
 6. ステータス バーで、クエリに 4 列と 10 行があることを確認します。
 
-    ![画像 5661](Linked_image_Files/PowerBI_Lab03A_image35.png)
 
 ### タスク 6: 売上クエリを構成する
 
@@ -347,15 +345,15 @@ Power BI Desktop へのデータの読み込み
 
     * ResellerKey
 
-    * 従業員キー
+    * EmployeeKey
 
-    * 営業地域キー
+    * SalesTerritoryKey
 
     * OrderQuantity
 
-    * 単価
+    * UnitPrice
 
-    * 総製品コスト
+    * TotalProductCost
 
     * SalesAmount
 
@@ -365,11 +363,11 @@ Power BI Desktop へのデータの読み込み
 
 4. **DimProduct** 列を展開し、**StandardCost** 列を含めます。
 
-5. カスタム列を作成するには、「**列を追加**」リボン タブの 「**全般**」 グループから、「**カスタム列**」 をクリックします。
+5. カスタム列を作成するには、「**列の追加**」リボン タブの 「**全般**」 グループから、「**カスタム列**」 をクリックします。
 
     ![画像 5664](Linked_image_Files/PowerBI_Lab03A_image37.png)
 
-6. **Custom Column** ウィンドウの **New Column Name** ボックスで、テキストを **Cost** に置き換えます。
+6. **カスタム列** ウィンドウの **新しい列名** ボックスで、テキストを **Cost** に置き換えます。
 
     ![画像 5665](Linked_image_Files/PowerBI_Lab03A_image38.png)
 
@@ -391,7 +389,7 @@ Power BI Desktop へのデータの読み込み
 
 10. 次の 2 つの列を削除します。
 
-    * 総製品コスト
+    * TotalProuctCost
 
     * StandardCost
 
@@ -399,27 +397,27 @@ Power BI Desktop へのデータの読み込み
 
     * **OrderQuantity** から **Quantity**
 
-    * **UnitPrice** から **Unitity** (スペースを含む)
+    * **UnitPrice** から **Unit Price** (スペースを含む)
 
     * **SalesAmount** から **Sales**
 
-12. 列のデータ型を変更するには、 **列**名の左側にある 「数量」 列ヘッダーで 「**1.2**」 アイコンをクリック し、「**整数**」 を選択 します。     
+12. 列のデータ型を変更するには、 列名の左側にある 「**Quantity**」 列ヘッダーで 「**1.2**」 アイコンをクリック し、「**整数**」 を選択 します。     
 
     ![画像 5667](Linked_image_Files/PowerBI_Lab03A_image40.png)
 
     *正しいデータ型を構成することが重要です。列に数値が含まれている場合は、数学計算を実行する場合は、正しい型を選択することも重要です*。
 
-13. 次の 3 つの列のデータ型を**固定 10 進数**に変更します。
+13. 次の 3 つの列のデータ型を**固定小数点数**に変更します。
 
-    * 単価
+    * Unit Price
 
-    * 売上
+    * Sales
 
-    * 原価
+    * Cost
 
     ![画像 5668](Linked_image_Files/PowerBI_Lab03A_image41.png)
 
-    *固定 10 進数データ型は、値を完全な精度で格納するため、10 進数よりも多くのストレージ スペースが必要です。財務値、またはレート (為替レートなど) には、固定小数型を使用することが重要です*。
+    *固定小数点数データ型は、値を完全な精度で格納するため、10 進数よりも多くのストレージ スペースが必要です。財務値、またはレート (為替レートなど) には、固定小数型を使用することが重要です*。
 
 14. ステータス バーで、クエリに 10 列と 999+ 行があることを確認します。
 
@@ -435,13 +433,13 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5672](Linked_image_Files/PowerBI_Lab03A_image43.png)
 
-2. クエリの名前を「**ターゲット**」に変更します。 
+2. クエリの名前を「**Target**」に変更します。 
 
 3. 12 か月の列 (**M01 **-** M12**) のピボットを解除するには、最初に 「**年**」 および 「**従業員 ID**」 列ヘッダーを複数選択します。
 
     ![画像 5673](Linked_image_Files/PowerBI_Lab03A_image44.png)
 
-4. 選択した列ヘッダーのいずれかを右クリックし、コンテキスト メニューで 「**他の列のピボット解除**」 を選択します。
+4. 選択した列ヘッダーのいずれかを右クリックし、コンテキスト メニューで 「**その他の列のピボット解除**」 を選択します。
 
     ![画像 5674](Linked_image_Files/PowerBI_Lab03A_image45.png)
 
@@ -451,11 +449,11 @@ Power BI Desktop へのデータの読み込み
 
 7. 次の 2 つの列の名前を変更します。
 
-    * **Attribute** から **MonthNumber** (2 つの単語の間にスペースはありません。後で削除されます）
+    * **属性** から **MonthNumber** (2 つの単語の間にスペースはありません。後で削除されます）
 
-    * **値**から**目標**
+    * **値**から**Target**
 
-    *ここで、日付列を作成するために変換を適用します。日付は、「**Year**」 および 「**MonthNumber**」 列から取得されます。 **例の列**機能*を使用して列を作成します。
+    *ここで、日付列を作成するために変換を適用します。日付は、「**Year**」 および 「**MonthNumber**」 列から取得されます。 **例からの列**機能を使用して列を作成します。*
 
 8. **MonthNumber** 列の値を準備するには、「**MonthNumber**」 列ヘッダーを右クリックしてから、「**値の置換**」 を選択します。
 
@@ -471,7 +469,7 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5678](Linked_image_Files/PowerBI_Lab03A_image48.png)
 
-12. 「**列を追加**」リボンタブの 「**全般**」 グループ内から、「**例の列**」 アイコンをクリックします。  
+12. 「**列を追加**」リボンタブの 「**全般**」 グループ内から、「**例からの列**」 アイコンをクリックします。  
 
     ![画像 5675](Linked_image_Files/PowerBI_Lab03A_image49.png)
 
@@ -489,7 +487,7 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5679](Linked_image_Files/PowerBI_Lab03A_image50.png)
 
-17. 新しい列の名前を変更するには、「**結合**」 列ヘッダーをダブルクリックします。
+17. 新しい列の名前を変更するには、「**結合済み**」 列ヘッダーをダブルクリックします。
 
 18. 列の名前を **TargetMonth** に変更します。 
 
@@ -499,19 +497,19 @@ Power BI Desktop へのデータの読み込み
 
     ![画像 5681](Linked_image_Files/PowerBI_Lab03A_image52.png)
 
-20. 次のコードを削除します。
+20. 次の列を削除します。
 
-    * 年
+    * Year
 
     * MonthNumber
 
 21. 次の列のデータ型を変更します。
 
-    * 固定 10 進数としての**目標**
+    * **Target**: 10進数
 
-    * 日付としての **TargetMonth**
+    * **TargetMonth**: 日付
 
-22. **目標**値に 1000 を掛けるには、「**ターゲット**」 列ヘッダーを選択し 、「**変換**」 リボン タブの 「**数値列**」 グループ内で 「**標準**」 をクリックし、「**乗算**」 を選択します。
+22. **Target**に 1000 を掛けるには、「**Target**」 列ヘッダーを選択し 、「**変換**」 リボン タブの 「**数値列**」 グループ内で 「**標準**」 をクリックし、「**乗算**」 を選択します。
 
     ![画像 5682](Linked_image_Files/PowerBI_Lab03A_image53.png)
 
@@ -525,7 +523,7 @@ Power BI Desktop へのデータの読み込み
 
 25. ステータスバーで、クエリに 3 つの列と 809 行があることを確認します。
 
-    ![画像 5685](Linked_image_Files/PowerBI_Lab03A_image56.png)
+
 
 ### タスク 8: ColorFormats クエリを構成する
 
@@ -536,27 +534,26 @@ Power BI Desktop へのデータの読み込み
 
 2. 最初の行に列名が含まれていることに注意してください。
 
-3. 「**ホーム**」 リボン タブの 「**変換**」 グループ内で、「**先頭行をヘッダーとして使用**」 をクリックします。  
+3. 「**ホーム**」 リボン タブの 「**変換**」 グループ内で、「**1行目をヘッダーとして使用**」 をクリックします。  
     ![画像 5688](Linked_image_Files/PowerBI_Lab03A_image58.png)
 
 4. ステータス バーで、クエリに 3 列と 10 行があることを確認します。  
-	![画像 5689](Linked_image_Files/PowerBI_Lab03A_image59.png)
 
 ### タスク 9: 製品クエリを更新する
 
 このタスクでは、**ColorFormats** クエリをマージして、**Product** クエリを更新します。
 
-1. **製品**クエリを選択します。  
+1. **Product**クエリを選択します。  
 	![画像 5690](Linked_image_Files/PowerBI_Lab03A_image60.png)
 
 1. **ColorFormats** クエリをマージするには、「**ホーム**」 リボン タブの 「**結合**」 グループ内から、「**クエリのマージ**」 をクリックします。  
 	![画像 5654](Linked_image_Files/PowerBI_Lab03A_image61.png)  
 	*クエリをマージすると、異なるデータ ソース (SQL サーバーと CSV ファイル) からのデータを統合できます*。
 
-1. 「**マージ**」 ウィンドウの 「**製品**」 クエリ グリッドで、「**色**」 列ヘッダーを選択 します。       
+1. 「**マージ**」 ウィンドウの 「**製品**」 クエリ グリッドで、「**Color**」 列ヘッダーを選択 します。       
 	![画像 5655](Linked_image_Files/PowerBI_Lab03A_image62.png)
 
-1. 「**製品**」 クエリ グリッドの下のドロップダウン リストで、「**色の書式**」 クエリを選択します。
+1. 「**Product**」 クエリ グリッドの下のドロップダウン リストで、「**ColorFormats**」 クエリを選択します。
 
 1. 「**ColorFormats**」 クエリ グリッドで、「**Color**」 列ヘッダーを選択します。  
 
@@ -581,7 +578,7 @@ Power BI Desktop へのデータの読み込み
 
 ### タスク 10: ColorFormats クエリを更新する
 
-このタスクでは、**ColorFormats** を更新してロードを無効にします。
+このタスクでは、**ColorFormats** を更新して読み込みを無効にします。
 
 1. **ColorFormats** クエリを選択します。   
 	![画像 321](Linked_image_Files/PowerBI_Lab03A_image68.png)
@@ -591,7 +588,7 @@ Power BI Desktop へのデータの読み込み
 
 3. 「**クエリのプロパティ**」 ウィンドウで、「**レポートへの読み込みを有効にする**」 チェック ボックスをオフにします。     
 	![画像 323](Linked_image_Files/PowerBI_Lab03A_image70.png)  
-	*ロードを無効にすると、データ モデルにテーブルとして読み込まれません。これは、クエリが Product クエリとマージされたために行われます。これにより、データ モデルに対応できます*。
+	*読み込みを無効にすると、データ モデルにテーブルとして読み込まれません。これは、クエリが Product クエリとマージされたために行われます。これにより、データ モデルに対応できます。*
 
 4. 「**OK**」 をクリックします。  
 	![画像 324](Linked_image_Files/PowerBI_Lab03A_image71.png)
@@ -602,19 +599,19 @@ Power BI Desktop へのデータの読み込み
 
 1. 次のように正しく名前が付けられた 8 つのクエリがあることを確認します。
 
-    * 営業担当者
+    * Salesperson
 
     * SalespersonRegion
 
-    * 製品
+    * Product
 
-    * リセラー
+    * Reseller
 
-    * リージョン
+    * Region
 
-    * 売上
+    * Sales
 
-    * ターゲット
+    * Targets
 
     * ColorFormats  (データモデルに読み込まれません)
 
