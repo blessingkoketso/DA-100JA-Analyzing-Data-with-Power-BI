@@ -52,47 +52,47 @@
 
 *重要: 前のラボから継続している (およびそのラボを完了している) 場合は、このタスクを完了しないで、次のタスクから続けてください。*
 
-12. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
+1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
 	![画像 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-13. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
 	![画像 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-14. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-15. 「**レポートを開く**」を選択します。
+4. 「**レポートを開く**」を選択します。
 
 	![画像 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
 
-16. 「**レポートを参照**」をクリックします。
+5. 「**レポートを参照**」をクリックします。
 
 	![画像 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-17. 「**開く**」ウィンドウで、**D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** フォルダーに移動します。
+6. 「**開く**」ウィンドウで、**D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** フォルダーに移動します。
 
-18. **Sales Analysis** ファイルを選択します。
+7. **Sales Analysis** ファイルを選択します。
 
-19. 「**開く**」をクリックします。
+8. 「**開く**」をクリックします。
 
 	![画像 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
 
-20. 開いている情報ウィンドウをすべて閉じます。
+9. 開いている情報ウィンドウをすべて閉じます。
 
-21. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+10. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-22. 「**名前を付けて保存**」を選択します。
+11. 「**名前を付けて保存**」を選択します。
 
 	![画像 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-23. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
+12. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
 
 	![画像 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-24. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+13. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-25. **保存** をクリックします。
+14. **保存** をクリックします。
 
 	![画像 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
@@ -184,7 +184,7 @@
 
 	![画像 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-21. この図では、**1** および*****インジケーターで表されるカーディナリティーを解釈できることに注意してください。
+21. この図では、**1** および **「*」** インジケーターで表されるカーディナリティーを解釈できることに注意してください。
 
 	*フィルターの方向は、矢印の向きによって表されます。実線はアクティブなリレーションシップを表し、破線は非アクティブなリレーションシップを表します。*
 

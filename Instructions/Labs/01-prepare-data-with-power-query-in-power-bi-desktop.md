@@ -52,27 +52,27 @@
 
 このタスクでは、まず Power BI Desktop ファイルを保存します。
 
-12. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
+1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
 	![画像 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-13. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
 	![画像 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-14. ファイルを保存するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+3. ファイルを保存するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-15. **保存** を選択します。
+4. **保存** を選択します。
 
 	![画像 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-16. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+5. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-17. 「**ファイル名**」ボックスに「**Sales Analysis**」と入力します。
+6. 「**ファイル名**」ボックスに「**Sales Analysis**」と入力します。
 
 	![画像 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-18. 「**保存**」をクリックします。
+7. 「**保存**」をクリックします。
 
 	![画像 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -262,7 +262,7 @@
 
 21. カーソルを **Ware House** バーの上に置くと、この値を持つ 5 つの行があることに注意してください。
 
-**Power BI Desktop へのデータの読み込み**ラボでは、これらの 5 つの行に変換を適用してラベルを再適用します。
+	**Power BI Desktop へのデータの読み込み**ラボでは、これらの 5 つの行に変換を適用してラベルを再適用します。
 
 22. **クエリ** ウィンドウで、**DimSalesTerritory** を選択します。
 
@@ -325,7 +325,7 @@
 
 このタスクでは、別の CSV ファイルに基づいて追加のクエリを作成します。
 
-1. 前のタスクの手順を使用して、**D:\DA100\Resources**\**ColorFormats.csv** ファイルに基づいてクエリを作成します。
+1. 前のタスクの手順を使用して、**D:\DA100\Resources\ColorFormats.csv** ファイルに基づいてクエリを作成します。
 
 	![画像 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
@@ -335,7 +335,7 @@
 
 このタスクではラボを完了します。
 
-1. 「**表示**」リボン タブの「** データ プレビュー**」グループ内から、次の 3 つのデータ プレビュー オプションをオフにします。
+1. 「**表示**」リボン タブの「**データ プレビュー**」グループ内から、次の 3 つのデータ プレビュー オプションをオフにします。
 
 	- 列の品質
 

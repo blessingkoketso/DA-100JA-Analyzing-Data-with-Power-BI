@@ -52,33 +52,33 @@
 
 *重要: 前の実習で Power BI にすでにサインインしている場合は、次のタスクから続行してください。*
 
-12. Microsoft Edge を開くには、タスク バーの Microsoft Edge プログラムのショートカットをクリックします。
+1. Microsoft Edge を開くには、タスク バーの Microsoft Edge プログラムのショートカットをクリックします。
 
 	![画像 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-13. Microsoft Edge ブラウザー ウィンドウで **https://powerbi.com** に移動します。
+2. Microsoft Edge ブラウザー ウィンドウで **https://powerbi.com** に移動します。
 
 	*ヒント: Microsoft Edge のお気に入りバーで Power BI サービスのお気に入りを使用することもできます。*
 
-14. 「**サインイン**」 (右上隅) をクリックします。
+3. 「**サインイン**」 (右上隅) をクリックします。
 
 	![画像 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
 
-15. 提供されたアカウント詳細を入力します。
+4. 提供されたアカウント詳細を入力します。
 
-16. パスワードを更新するように求められたら、指定されたパスワードを再入力し、新しいパスワードを入力して確認します。
+5. パスワードを更新するように求められたら、指定されたパスワードを再入力し、新しいパスワードを入力して確認します。
 
 	*重要: 新しいパスワードを必ず記録してください。*
 
-17. サインイン プロセスを完了します。
+6. サインイン プロセスを完了します。
 
-18. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、「**はい**」をクリックします。
+7. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、「**はい**」をクリックします。
 
-19. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの「**ナビゲーション**」ウィンドウで、「**マイ ワークスペース**」を展開します。
+8. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの「**ナビゲーション**」ウィンドウで、「**マイ ワークスペース**」を展開します。
 
 	![画像 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
-20. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
+9. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
 
 ### **タスク 2: 開始する – データセットの作成**
 

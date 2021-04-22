@@ -48,59 +48,59 @@
 
 *重要: 前のラボから継続している (およびそのラボを完了している) 場合は、このタスクを完了しないで、次のタスクから続けてください。*
 
-12. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
+1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
 	![画像 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-13. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
 	![画像 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-14. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-15. 「**レポートを開く**」を選択します。
+4. 「**レポートを開く**」を選択します。
 
 	![画像 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
-16. 「**レポートを参照**」をクリックします。
+5. 「**レポートを参照**」をクリックします。
 
 	![画像 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-17. 「**開く**」ウィンドウで、**D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** フォルダーに移動します。
+6. 「**開く**」ウィンドウで、**D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** フォルダーに移動します。
 
-18. **Sales Analysis** ファイルを選択します。
+7. **Sales Analysis** ファイルを選択します。
 
-19. 「**開く**」をクリックします。
+8. 「**開く**」をクリックします。
 
 	![画像 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-20. 開いている情報ウィンドウをすべて閉じます。
+9. 開いている情報ウィンドウをすべて閉じます。
 
-21. リボンの下の黄色い警告メッセージに注目してください。
+10. リボンの下の黄色い警告メッセージに注目してください。
 
 	*このメッセージは、モデル テーブルとして読み込むためにクエリが適用されていないことを警告します。クエリは、このラボの後半で適用します。*
 
-22. 警告メッセージを閉じるには、黄色い警告メッセージの右側にある「**X**」をクリックします。
+11. 警告メッセージを閉じるには、黄色い警告メッセージの右側にある「**X**」をクリックします。
 
 	![画像 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
-23. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+12. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-24. 「**名前を付けて保存**」を選択します。
+13. 「**名前を付けて保存**」を選択します。
 
 	![画像 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
 
-25. 変更を適用するかどうかを確認するメッセージが表示されたら、「**後で適用**」をクリックします。
+14. 変更を適用するかどうかを確認するメッセージが表示されたら、「**後で適用**」をクリックします。
 
 	![画像 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-26. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+15. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-27. 「**保存**」をクリックします。
+16. 「**保存**」をクリックします。
 
 	![画像 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
-28. **Power Query エディター** ウィンドウを開くには、「**ホーム**」リボン タブの「**クエリ**」グループで、**データの変換**」アイコンをクリックします。
+17. **Power Query エディター** ウィンドウを開くには、「**ホーム**」リボン タブの「**クエリ**」グループで、**データの変換**」アイコンをクリックします。
 
 	![画像 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
@@ -272,7 +272,7 @@
 
 7. すべての列をオフにするには、「**（すべての列を選択）**」の項目をオフにします。
 
-8. **EnglishProductSubcategoryName** および ** DimProductCategory** 列を確認します。
+8. **EnglishProductSubcategoryName** および **DimProductCategory** 列を確認します。
 
 	![画像 5646](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image32.png)
 

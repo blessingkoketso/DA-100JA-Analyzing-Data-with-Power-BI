@@ -50,47 +50,47 @@
 
 *重要: 前のラボから継続している (およびそのラボを完了している) 場合は、このタスクを完了しないで、次のタスクから続けてください。*
 
-12. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
+1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
 	![画像 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
 
-13. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
 	![画像 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-14. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-15. 「**レポートを開く**」を選択します。
+4. 「**レポートを開く**」を選択します。
 
 	![画像 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
 
-16. 「**レポートを参照**」をクリックします。
+5. 「**レポートを参照**」をクリックします。
 
 	![画像 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-17. 「**開く**」ウィンドウで、**D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter** フォルダーに移動します。
+6. 「**開く**」ウィンドウで、**D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter** フォルダーに移動します。
 
-18. **Sales Analysis** ファイルを選択します。
+7. **Sales Analysis** ファイルを選択します。
 
-19. 「**開く**」をクリックします。
+8. 「**開く**」をクリックします。
 
 	![画像 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
 
-20. 開いている情報ウィンドウをすべて閉じます。
+9. 開いている情報ウィンドウをすべて閉じます。
 
-21. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+10. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-22. 「**名前を付けて保存**」を選択します。
+11. 「**名前を付けて保存**」を選択します。
 
 	![画像 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-23. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
+12. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
 
 	![画像 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-24. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+13. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-25. 「**保存**」をクリックします。
+14. 「**保存**」をクリックします。
 
 	![画像 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
@@ -128,7 +128,7 @@
 
 5. **Salesperson** テーブルが使用可能であることを確認してください (非表示になっている可能性があります。その場合は水平方向にスクロールして見つけてください)。
 
-6. **Salesperson | EmployeeKey ** 列から **Sales | EmployeeKey** 列へのリレーションシップを作成します。
+6. **Salesperson | EmployeeKey** 列から **Sales | EmployeeKey** 列へのリレーションシップを作成します。
 
 7. **Salesperson (Performance)** テーブルと **Sales** テーブルの間の非アクティブなリレーションシップを右クリックし、「**削除**」を選択します。
 
@@ -154,7 +154,7 @@
 
 12. **Salesperson (Performance)** テーブルの説明を次の値に設定します。**地域に関連する営業担当者**
 
-	*データ モデルは、営業担当者を分析する際に 2 つの代替手段を提供するようになりました。**Salesperson**テーブルでは、営業担当者による売上を分析でき、**Salesperson (Performance)**テーブルでは、営業担当者に割り当てられた販売地域での売上を分析できます。*
+	*データ モデルは、営業担当者を分析する際に 2 つの代替手段を提供するようになりました。**Salesperson** テーブルでは、営業担当者による売上を分析でき、**Salesperson (Performance)** テーブルでは、営業担当者に割り当てられた販売地域での売上を分析できます。*
 
 ### **タスク 3: Date テーブルを作成する**
 
@@ -364,7 +364,7 @@
 
 	![画像 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
-	***Power BI Desktop でのデータのモデル化、パート 2** ラボでは、**Unit Price** 列を**平均**で要約するように設定しました。マトリックス ビジュアルに表示される結果は、月平均単価 (単価の値の合計を単価の数で割ったもの) です。*
+	***Power BI Desktop でのデータのモデル化、パート 2** ラボでは、**Unit Price** 列を **平均** で要約するように設定しました。マトリックス ビジュアルに表示される結果は、月平均単価 (単価の値の合計を単価の数で割ったもの) です。*
 
 2. ビジュアル フィールド ウィンドウ (「**視覚化**」ウィンドウの下) の「**値**」ウェルに、「**Unit Price**」が一覧表示されていることに注目してください。
 
