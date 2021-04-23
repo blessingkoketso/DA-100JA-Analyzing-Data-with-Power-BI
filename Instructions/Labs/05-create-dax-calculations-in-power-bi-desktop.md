@@ -34,11 +34,11 @@
 
 8. Power BI Desktop でのレポートの設計、パート 2
 
-9. Power BI ダッシュボードの作成
+9. Power BI ダッシュボードを作成する
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: 計算テーブルを作成する**
 
@@ -52,45 +52,45 @@
 
 1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
-	![画像 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
+ 	![画像 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
 
-2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+1. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
-	![画像 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
+ 	![画像 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-4. 「**レポートを開く**」を選択します。
+1. 「**レポートを開く**」を選択します。
 
-	![画像 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
+ 	![画像 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
 
-5. 「**レポートを参照**」をクリックします。
+1. 「**レポートを参照**」をクリックします。
 
-	![画像 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
+ 	![画像 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-6. 「**開く**」ウィンドウで、**D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter** フォルダーに移動します。
+1. 「**開く**」ウィンドウで、**D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** フォルダーに移動します。
 
-7. **Sales Analysis** ファイルを選択します。
+1. **Sales Analysis** ファイルを選択します。
 
-8. 「**開く**」をクリックします。
+1. 「**開く**」をクリックします。
 
-	![画像 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
+ 	![画像 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
 
-9. 開いている情報ウィンドウをすべて閉じます。
+1. 開いている情報ウィンドウをすべて閉じます。
 
-10. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-11. 「**名前を付けて保存**」を選択します。
+1. 「**名前を付けて保存**」を選択します。
 
-	![画像 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
+ 	![画像 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-12. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
+1. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
 
-	![画像 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
+ 	![画像 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-13. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+1. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-14. 「**保存**」をクリックします。
+1. 「**保存**」をクリックします。
 
 	![画像 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
@@ -100,13 +100,13 @@
 
 1. Power BI Desktop にある レポート ビューの「**モデリング**」リボンで、「**計算**」グループ内から「**新しいテーブル**」をクリックします。
 
-	![画像 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
+	![画像　1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
 
 2. 数式バー (計算の作成時または編集時にリボンの直下に表示される) に「**Salesperson =**」と入力し、**Shift+Enter** キーを押し、「**'Salesperson (Performance)'**」と入力し、**Enter** キーを押します。
 
 	![画像 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*利便性のために、このラボのすべての DAX 定義は、**D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** ファイルからコピーできます。*
+	*利便性のために、このラボのすべての DAX 定義は、**D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** ファイルからコピーできます。*
 
 	*計算テーブルを作成するには、最初にテーブル名を入力し、続けて等号 (=) と、テーブルが返される DAX 式を入力します。テーブル名はデータ モデルに存在できません。*
 
@@ -182,7 +182,7 @@
 
 	![画像 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
-	*CALENDARAUTO() 関数では、日付値で構成される単一列のテーブルが返されます。"自動的な" 動作により、すべてのデータ モデルの日付列がスキャンされ、データ モデルに格納されている最も古い日付値と最も新しい日付値が決定されます。次に、この範囲内の各日付に対して 1 つの行が作成されます。範囲をいずれかの方向に拡張して、すべての年のデータが格納されるようにします。*
+	*CALENDARAUTO() 関数では、日付値で構成される単一列のテーブルが返されます。"auto" 動作は、すべてのデータ モデル日付列をスキャンして、データ モデルに格納されている最も古い日付と最新の日付値を判別します。次に、この範囲内の日付ごとに 1 行を作成し、範囲をいずれかの方向に拡張して、完全な年のデータが確実に格納されるようにします。*
 
 	*この関数は、1 年の最後の月数である 1 つの省略可能な引数を受け取ることができます。省略した場合、その値は 12 になります。12 月が年度の最終月であるという意味です。この場合、6 が入力されます。これは、6 月がその年の最後の月であることを意味します。*
 
@@ -216,9 +216,9 @@
 	```
 
 
-	*計算列を作成するには、最初に列名を入力し、続けて等号 (=) と、単一値の結果が返される DAX 式を入力します。テーブル内に既に存在している列名は使用できません。*
+	*計算列を作成するには、最初に列名を入力し、続けて等号 (=) と、単一値の結果が返される DAX 式を入力します。列名がテーブルに既に存在できません。*
 
-	*この数式では日付の年の値が使用されますが、月が 6 月よりも後の場合は、年の値に 1 が加算されます。このようにして、Adventure Works 社の会計年度が計算されます。*
+	*数式では、日付の年の値を使用しますが、月が 6 月の後の場合は年の値に 1 を加算します。このようにして、Adventure Works 社の会計年度が計算されます。*
 
 3. 新しい列が追加されたことを確認します。
 
@@ -234,7 +234,7 @@
 
 5. 計算を確認するために、レポート ビューに切り替えます。
 
-6. 新しいレポート ページを作成するために、左下にあるプラス アイコンをクリックします。
+6. 新しいレポート ページを作成するには、左下のプラス アイコンをクリックします。
 
 	![画像 15](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image22.png)
 
@@ -244,11 +244,11 @@
 
 	![画像 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-8. 「**フィールド**」ウィンドウの **Date** テーブル内から「**年**」フィールドを「**行**」ウェルにドラッグします。
+8. 「**フィールド**」ウィンドウの **Date** テーブル内から「**年**」フィールドを「**行**」ウェル/領域にドラッグします。
 
 	![画像 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
-9. 「**月**」フィールドを「**年**」フィールドのすぐ下にある「**行**」ウェルにドラッグします。
+9. 「**月**」フィールドを「**年**」フィールドのすぐ下にある「**行**」ウェル/領域にドラッグします。
 
 	![画像 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image25.png)
 
@@ -278,7 +278,7 @@
 
 	*この数式により、年と月の各組み合わせに対する数値が計算されます。*
 
-14. データ ビューで、新しい列に数値が含まれていることを確認します (例: 2017 年 7 月に対して 201707、など)。
+14. データ ビューで、新しい列に数値が含まれていることを確認します (201707 は 2017 年 7 月など)。
 
 	![画像 21](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image28.png)
 
@@ -366,7 +366,7 @@
 
 	***Power BI Desktop でのデータのモデル化、パート 2** ラボでは、**Unit Price** 列を **平均** で要約するように設定しました。マトリックス ビジュアルに表示される結果は、月平均単価 (単価の値の合計を単価の数で割ったもの) です。*
 
-2. ビジュアル フィールド ウィンドウ (「**視覚化**」ウィンドウの下) の「**値**」ウェルに、「**Unit Price**」が一覧表示されていることに注目してください。
+2. ビジュアル フィールド ウィンドウ (「**視覚化**」ウィンドウの下) の「**値**」フィールドのウェル/領域に、「**Unit Price**」が一覧表示されていることに注目してください。
 
 	![画像 28](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png)
 
@@ -440,7 +440,7 @@
 
 	![画像 36](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png)
 
-14. レポート ビューにある、マトリックス ビジュアルの「**値**」ウェルで、「**Unit Price**」フィールドの「**X**」をクリックして削除します。
+14. レポート ビューにある、マトリックス ビジュアルの「**値**」ウェル/領域で、「**Unit Price**」フィールドの「**X**」をクリックして削除します。
 
 	![画像 38](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image42.png)
 

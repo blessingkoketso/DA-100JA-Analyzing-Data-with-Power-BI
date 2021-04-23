@@ -16,7 +16,7 @@
 
 - 主要なインフルエンサー ビジュアルの操作
 
-### ラボ **ストーリー**
+### **ラボ ストーリー**
 
 このラボは、データの準備からレポートやダッシュボードとしての発行までの完全なストーリーとして設計された一連のラボのうちの 1 つです。ラボは任意の順序で完了できます。ただし、複数のラボを行う場合は、最初の 10 のラボを次の順序で行うことをお勧めします。
 
@@ -38,9 +38,9 @@
 
 9. Power BI ダッシュボードを作成する
 
-10. **Power BI Desktop におけるデータ分析の実施**
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. **Power BI Desktop におけるデータ分析の実施**
 
 ## **レポートの作成**
 
@@ -54,31 +54,31 @@
 
 1. Microsoft Edge を開くには、タスク バーの Microsoft Edge プログラムのショートカットをクリックします。
 
-	![画像 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
+ 	![画像 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-2. Microsoft Edge ブラウザー ウィンドウで **https://powerbi.com** に移動します。
+1. Microsoft Edge ブラウザー ウィンドウで **https://powerbi.com** に移動します。
 
-	*ヒント: Microsoft Edge のお気に入りバーで Power BI サービスのお気に入りを使用することもできます。*
+ 	*ヒント: Microsoft Edge のお気に入りバーで Power BI サービスのお気に入りを使用することもできます。*
 
-3. 「**サインイン**」 (右上隅) をクリックします。
+1. 「**サインイン**」 (右上隅) をクリックします。
 
-	![画像 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
+ 	![画像 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
 
-4. 提供されたアカウント詳細を入力します。
+1. 提供されたアカウント詳細を入力します。
 
-5. パスワードを更新するように求められたら、指定されたパスワードを再入力し、新しいパスワードを入力して確認します。
+1. パスワードを更新するように求められたら、指定されたパスワードを再入力し、新しいパスワードを入力して確認します。
 
-	*重要: 新しいパスワードを必ず記録してください。*
+ 	*重要: 新しいパスワードを必ず記録してください。*
 
-6. サインイン プロセスを完了します。
+1. サインイン プロセスを完了します。
 
-7. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、「**はい**」をクリックします。
+1. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、「**はい**」をクリックします。
 
-8. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの「**ナビゲーション**」ウィンドウで、「**マイ ワークスペース**」を展開します。
+1. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの「**ナビゲーション**」ウィンドウで、「**マイ ワークスペース**」を展開します。
 
-	![画像 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
+ 	![画像 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
-9. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
+1. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
 
 ### **タスク 2: 開始する – データセットの作成**
 
@@ -98,7 +98,7 @@
 
 	![画像 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. 「**開く**」ウィンドウで、**D:\DA100\Labs\create-power-bi-dashboard\Solution** フォルダーに移動します。
+4. 「**開く**」ウィンドウで、**D:\DA100\Labs\11-create-power-bi-dashboard\Solution** フォルダーに移動します。
 
 5. **Sales Analysis.pbix** ファイルを選択し、「**開く**」をクリックします。
 
@@ -134,7 +134,7 @@
 
 8. 「**ファイル名**」ボックスに「**販売調査**」と入力します。
 
-	![画像 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
+	![画像　1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
 9. 「**販売分析**」データセットへのライブ接続を作成するには、「**ホーム**」リボン タブの「**データ**」グループ内から「**Power BI データセット**」をクリックします。
 
@@ -158,7 +158,7 @@
 
 このタスクでは、アニメーション化できる散布図を作成します。
 
-1. 「**ページ 1**」の名前を **Scatter Chart** に変更します。
+1. **ページ 1** の名前を「**散布図**」に変更します。
 
 	![画像 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
 
@@ -168,9 +168,9 @@
 
 	![画像 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
-3. 次のフィールドをビジュアル ウェルに追加します。
+3. 次のフィールドをビジュアル ウェル/領域に追加します。
 
-	ラボでは、フィールドを参照するために省略表記を使用します。次のようになります。 **Reseller | Business Type**。この例では、**Reseller** はテーブル名、**Business Type** はフィールド名です。
+	ラボでは、フィールドを参照するために省略表記を使用します。次のようになります。**Reseller | Business Type**。この例では、**Reseller** はテーブル名、**Business Type** はフィールド名です。
 
 	- 凡例: **Reseller | Business Type**
 
@@ -184,9 +184,9 @@
 
 	![画像 39](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image17.png)
 
-	*グラフは、フィールドが「**再生軸**」ウェルに追加されたときにアニメーション化できます。*
+	***再生軸**ウェル/領域にフィールドを追加すると、チャートをアニメーション化できます。*
 
-4. 「**フィルター** ウィンドウで、「**Product | Category**」フィールドを「**このページのフィルター**」ウェルに追加します。
+4. 「**フィルター**」ウィンドウで、「**Product | Category**」フィールドを「**このページをフィルター**」ウェル/領域にドラッグします。
 
 5. フィルター カードで、「**バイク**」でフィルター処理します。
 
@@ -200,13 +200,13 @@
 
 	*散布図では、メジャーの値を同時に把握できます。ここでは、注文の Quantity (量)、Sales (売上) の収益、および Profit Margin (利益率) の値です。*
 
-	*各バブルは、リセラーのビジネス タイプを表します。バブル サイズの変化は、注文量の増減を反映しています。水平方向の移動は Sales の収益の増加または減少を表し、垂直方向の移動は収益性の上昇または低下を表します。*
+	*各バブルは、リセラーのビジネス タイプを表します。バブル サイズの変化は、注文量の増減を反映しています。水平方向の動きは売上収益の増減を表し、垂直方向の動きは収益性の増減を表します。*
 
-8. アニメーションが停止したら、いずれかのバブルをクリックすると、時系列での追跡が表示されます。
+8. アニメーションが停止したら、バブルの 1 つをクリックして、時間の経過に従ってトラッキングを表示します。
 
-9. バブルの上にカーソルを合わせると、その時点での、その種類のリセラーのメジャー値を示すヒントが表示されます。
+9. カーソルを任意のバブルの上に置くと、その時点でのリセラー タイプのメジャー値を説明するヒントが表示されます。
 
-10. **フィルター** ウィンドウで、**衣類**のみでフィルター処理すると、結果が大きく異なることに注目してください。
+10. 「**フィルター**」 ペインで、「**服**」 でフィルター処理するだけで、結果が非常に異なっていることがわかります。
 
 11. Power BI Desktop ファイルを保存します。
 
@@ -229,19 +229,18 @@
 	![画像 74](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image22.png)
 
   
-‎ 
 
-3. 次のフィールドをビジュアル ウェルに追加します。
+3. 次のフィールドをビジュアル ウェル/領域に追加します。
 
-	- 軸: **Date | Date**
+	- 軸: **Date | 日付**
 
 	- 値: **Sales | Sales** 
 
 	![画像 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
-4. 「**フィルター**」ウィンドウで、「**Date | Year**」フィールドを「**このページのフィルター**」ウェルに追加します。
+4. 「**フィルター**」ウィンドウで、「**Date | Year**」フィールドを「**このページをフィルター**」ウェル/領域に追加します。
 
-5. フィルター カードで、**2019 年度**と **2020 年度**の 2 年でフィルター処理します。
+5. フィルター カードで、**2019 年度**および **2020 年度** に表示されます。
 
 	![画像 47](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image24.png)
 
@@ -249,7 +248,7 @@
 
   
 
-6. 「**Product | Category**」フィールドも「**このページのフィルター**」ウェルに追加し、「**バイク**」でフィルター処理します。
+6. 「**Product | Category**」フィールドも「**このページのフィルター**」ウェル/領域に追加し、「**バイク**」でフィルター処理します。
 
 	![画像 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
 
@@ -307,11 +306,11 @@
 
 	![画像 54](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image31.png)
 
-3. ページ全体に表示されるようにビジュアルを配置してサイズを変更します。
+3. ページ全体に表示されるようにビジュアルを配置し、サイズを変更します。
 
 	![画像 73](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image32.png)
 
-4. 次のフィールドをビジュアル ウェルに追加します。
+4. 次のフィールドをビジュアル ウェル/領域に追加します。
 
 	- 分析: **Sales | Profit Margin**
 
@@ -323,7 +322,7 @@
 
 	![画像 59](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image34.png)
 
-6. 分解ツリー ビジュアルで、ツリーのルートが-0.94% で「**Profit Margin**」になっていることに注目してください 
+6. 分解ツリー ビジュアルで、ツリーのルートが**利益率** -0.94% で
 
 	![画像 21](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image35.png)
 
@@ -333,7 +332,7 @@
 
 8. デシジョン ツリーでは、Profit Margin の高い順から Reseller が表示されていることに注目してください。
 
-9. レベルを削除するには、ビジュアル上部の「**Reseller**」ラベルの横にある **X** をクリックします。
+9. レベルを削除するには、ビジュアル上部の 「**リセラー**」 ラベルの横にある 「**X**」 をクリックします。
 
 	![画像 62](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image37.png)
 
@@ -387,7 +386,7 @@
 
 	![画像 3](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image42.png)
 
-5. ビジュアルの左上に、「**主要なインフルエンサー**」がフォーカスされており、利益率を増加させるものが何かを理解するために特定の影響が設定されていることにに注目してください。
+5. ビジュアルの左上に、「**主要なインフルエンサー**」がフォーカスされており、利益率を増加させる要因が何かを理解するために特定の影響が設定されていることにに注目してください。
 
 	![画像 76](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image43.png)
 
@@ -405,7 +404,7 @@
 
 10. Profit Margin が高くなりそうな場合に、セグメントを判断することがターゲットであることに注目してください。
 
-11. ビジュアルにセグメント (円) が表示されたら、いずれかをクリックして、それに関する情報を表示します。
+11. ビジュアルにセグメントが (円で) 表示されたら、セグメントの 1 つをクリックして、そのセグメントに関する情報を表示します。
 
 12. セグメントの結果を確認します。
 

@@ -34,9 +34,9 @@
 
 9. Power BI ダッシュボードを作成する
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: データを読み込む**
 
@@ -50,57 +50,57 @@
 
 1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
-	![画像 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+    ![画像 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+1. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
-	![画像 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
+    ![画像 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-4. 「**レポートを開く**」を選択します。
+1. 「**レポートを開く**」を選択します。
 
 	![画像 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
-5. 「**レポートを参照**」をクリックします。
+1. 「**レポートを参照**」をクリックします。
 
-	![画像 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
+    ![画像 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-6. 「**開く**」ウィンドウで、**D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** フォルダーに移動します。
+1. 「**開く**」ウィンドウで、**D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** フォルダーに移動します。
 
-7. **Sales Analysis** ファイルを選択します。
+1. **Sales Analysis** ファイルを選択します。
 
-8. 「**開く**」をクリックします。
+1. 「**開く**」をクリックします。
 
 	![画像 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-9. 開いている情報ウィンドウをすべて閉じます。
+1. 開いている情報ウィンドウをすべて閉じます。
 
-10. リボンの下の黄色い警告メッセージに注目してください。
+1. リボンの下の黄色い警告メッセージに注目してください。
 
 	*このメッセージは、モデル テーブルとして読み込むためにクエリが適用されていないことを警告します。クエリは、このラボの後半で適用します。*
 
-11. 警告メッセージを閉じるには、黄色い警告メッセージの右側にある「**X**」をクリックします。
+1. 警告メッセージを閉じるには、黄色い警告メッセージの右側にある「**X**」をクリックします。
 
 	![画像 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
-12. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-13. 「**名前を付けて保存**」を選択します。
+1. 「**名前を付けて保存**」を選択します。
 
-	![画像 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
+    ![画像 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
 
-14. 変更を適用するかどうかを確認するメッセージが表示されたら、「**後で適用**」をクリックします。
+1. 変更を適用するかどうかを確認するメッセージが表示されたら、「**後で適用**」をクリックします。
 
-	![画像 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![画像 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-15. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+1. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-16. 「**保存**」をクリックします。
+1. 「**保存**」をクリックします。
 
-	![画像 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
+    ![画像 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
-17. **Power Query エディター** ウィンドウを開くには、「**ホーム**」リボン タブの「**クエリ**」グループで、**データの変換**」アイコンをクリックします。
+1. **Power Query エディター** ウィンドウを開くには、「**ホーム**」リボン タブの「**クエリ**」グループで、「**データの変換**」アイコンをクリックします。
 
 	![画像 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
@@ -110,7 +110,7 @@
 
 1. 「**Power Query エディター**」ウィンドウの「**クエリ**」ウィンドウで、「**DimEmployee**」クエリを選択します。
 
-	![画像 1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
+	![画像　1](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image11.png)
 
 2. クエリの名前を変更するには、**クエリ設定** ウィンドウ (右側) の「**名前**」ボックスで、テキストを **Salesperson** に置き換えて、**Enter** キーを押 します。
 
@@ -369,7 +369,7 @@
 
 	- **EnglishCountryRegionName** から **Country-Region**
 
-10. ステータス バーで、クエリに 6 つの列と 701 行があることを確認します。
+10. ステータス バーで、クエリに 6 列と 701 行が含まれているかどうかを確認します。
 
 	![画像 5657](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image42.png)
 
@@ -466,7 +466,7 @@
    ```
 
 
-	*この式は、**TotalProductCost** 値が欠落しているかどうかをテストします。そうであれば、**OrderQuantity** 値に **StandardCost** 値を掛けて値を生成します。 それ以外の場合は、既存の **TotalProductCost** 値を使用します。*
+*この式は、**TotalProductCost** 値が欠落しているかどうかをテストします。そうであれば、**OrderQuantity** 値に **StandardCost** 値を掛けて値を生成します。 それ以外の場合は、既存の **TotalProductCost** 値を使用します。*
 
 9. 「**OK**」をクリックします。
 
@@ -624,7 +624,7 @@
 
 2. 最初の行に列名が含まれていることに注目してください。
 
-3. 「**ホーム**」リボン タブの「**変換**」グループ内で、「**先頭行をヘッダーとして使用**」をクリックします。
+3. 「**ホーム**」 リボン タブの 「**変換**」 グループ内で、「**先頭行をヘッダーとして使用**」 をクリックします。
 
 	![画像 5688](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image68.png)
 
@@ -660,7 +660,7 @@
 
 	![画像 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 
-	*データ ソースのプライバシー レベルを構成して、ソース間でデータを共有できるかどうかを決定できます。各データソースを「**組織**」に設定すると、必要に応じてデータを共有できます。プライベート データ ソースを他のデータ ソースと共有することはできません。プライベート データを共有できないという意味ではありません。 つまり、Power Query エンジンはソース間でデータを共有できません。*
+	*データ ソースのプライバシー レベルを構成して、ソース間でデータを共有できるかどうかを決定できます。各データソースを**組織**に設定すると、必要に応じてデータを共有できます。プライベート データ ソースを他のデータ ソースと共有することはできません。プライベート データを共有できないという意味ではありません。 つまり、Power Query エンジンはソース間でデータを共有できません。*
 
 7. 「**保存**」をクリックします。
 

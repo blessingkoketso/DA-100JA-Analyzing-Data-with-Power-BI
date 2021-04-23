@@ -34,11 +34,11 @@
 
 8. Power BI Desktop でのレポートの設計、パート 2
 
-9. **Power BI ダッシュボードの作成**
+9. **Power BI ダッシュボードを作成する**
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: ダッシュボードの作成**
 
@@ -110,7 +110,7 @@
 
     ![画像 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. 「**開く**」ウィンドウで、**D:\DA100\Labs\create-power-bi-dashboard\Starter** フォルダーに移動します。
+8. 「**開く**」ウィンドウで、**D:\DA100\Labs\09-create-power-bi-dashboard\Starter** フォルダーに移動します。
 
 9. **Sales Analysis** ファイルを選択します。
 
@@ -154,7 +154,7 @@
 
     ![画像 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. 「**開く**」ウィンドウで、**D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Solution** フォルダーに移動します。
+4. 「**開く**」ウィンドウで、**D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** フォルダーに移動します。
 
 5. **Sales Analysis.pbix** ファイルを選択し、「**開く**」をクリックします。
 
@@ -186,7 +186,7 @@
 
 7. 「**ピン留め**」をクリックします。
 
-    ![画像 1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
+    ![画像　1](Linked_image_Files/09-create-power-bi-dashboard_image20.png)
 
 8. 「**ナビゲーション**」ウィンドウを開き、 **売上モニタリング** ダッシュボードを開きます。
 
@@ -208,7 +208,7 @@
 
 13. Q&A ボックスからすべてのテキストを削除します。
 
-14. Q&A ボックスに、次のように入力します。**現時点年間累計販売**
+14. Q&A ボックスに、次のように入力します。**売上 YTD**
 
     ![画像 11](Linked_image_Files/09-create-power-bi-dashboard_image24.png)
 
@@ -262,7 +262,7 @@
 
 26. ロゴ タイルのサイズを変更するには、右下隅をドラッグし、タイルのサイズを 1 単位の幅、2 単位の高さに変更します。
 
-    *タイルのサイズは、四角形のシェイプに制限されます。長方形の倍数にしかサイズ変更できません。*
+    *タイル サイズは、長方形の図形に制限されます。長方形の倍数にしかサイズ変更できません。*
 
 27. ロゴが左上に表示され、その下に「**売上 YTD**」タイル、右に「**売上、利益率**」タイルが表示されるようにタイルを編成します。
 
@@ -368,7 +368,7 @@
 
 5. Power BI Desktop を閉じます。
 
-## **演習 3: ダッシュボードの確認**
+## **演習 3：ダッシュボードの確認**
 
 この演習では、ダッシュボードを確認して、更新された売上を確認し、アラートがトリガーされたことを確認します。
 

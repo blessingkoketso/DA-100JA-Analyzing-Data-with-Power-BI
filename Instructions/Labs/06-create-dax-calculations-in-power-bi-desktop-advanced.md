@@ -32,11 +32,11 @@
 
 8. Power BI Desktop でのレポートの設計、パート 2
 
-9. Power BI ダッシュボードの作成
+9. Power BI ダッシュボードを作成する
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: フィルター コンテキストを操作する**
 
@@ -52,43 +52,43 @@
 
     ![画像 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
-2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+1. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
     ![画像 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-4. 「**レポートを開く**」を選択します。
+1. 「**レポートを開く**」を選択します。
 
     ![画像 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image3.png)
 
-5. 「**レポートを参照**」をクリックします。
+1. 「**レポートを参照**」をクリックします。
 
     ![画像 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-6. 「**開く**」ウィンドウで、**D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Starter** フォルダーに移動します。
+1. 「**開く**」ウィンドウで、**D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** フォルダーに移動します。
 
-7. **Sales Analysis** ファイルを選択します。
+1. **Sales Analysis** ファイルを選択します。
 
-8. 「**開く**」をクリックします。
+1. 「**開く**」をクリックします。
 
     ![画像 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
 
-9. 開いている情報ウィンドウをすべて閉じます。
+1. 開いている情報ウィンドウをすべて閉じます。
 
-10. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-11. 「**名前を付けて保存**」を選択します。
+1. 「**名前を付けて保存**」を選択します。
 
     ![画像 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-12. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
+1. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
 
     ![画像 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-13. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+1. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-14. 「**保存**」をクリックします。
+1. 「**保存**」をクリックします。
 
     ![画像 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
 
@@ -98,7 +98,7 @@
 
 1. Power BI Desktop のレポート ビューで、新しいレポート ページを作成します。
 
-    ![画像 1](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image9.png)
+    ![画像　1](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image9.png)
 
 2. 「**ページ 3**」で、マトリックス ビジュアルを追加します。
 
@@ -106,7 +106,7 @@
 
 3. ページ全体に合わせてマトリックス ビジュアルのサイズを変更します。
 
-4. マトリックス ビジュアル フィールドを構成するには、「**フィールド**」ウィンドウから **Region** をドラッグします **| Regions** 階層を作成し、ビジュアル内にドロップします。
+4. マトリックスのビジュアル フィールドを構成するには、「**フィールド**」 ウィンドウから 「**リージョン**」 をドラッグします **| リージョン** 階層を作成し、ビジュアル内にドロップします。
 
     *ラボでは、フィールドまたは階層を参照するために省略表記を使用します。次のようになります。 **Region | Regions**。この例では、**Region** はテーブル名、**Regions** は階層名です。*
 
@@ -134,7 +134,7 @@
 
     ![画像 50](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
 
-    *Adventure Works では、販売地域はグループ、国、地域に分類されます。すべての国 (米国を除く) には地域が 1 つだけあり、その国にちなんだ名前が付けられています。米国は非常に大きな販売地域であるため、5 つの販売地域に分かれています。*
+    *Adventure Works では、販売地域はグループ、国、地域に分類されます。米国を除くすべての国には、国にちなんで名付けられた 1 つの地域があります。米国は非常に大きな販売地域であるため、5 つの販売地域に分かれています。*
 
     *この演習ではいくつかのメジャーを作成し、マトリックス ビジュアルに追加してテストします。*
 
@@ -144,7 +144,7 @@
 
 1. 次の式に基づいて、**Sales** テーブルにメジャーを追加します。
 
-    *利便性のために、このラボのすべての DAX 定義は、**D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** ファイルからコピーできます。*
+    *利便性のために、このラボのすべての DAX 定義は、**D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** ファイルからコピーできます。*
 
 
     **DAX**
@@ -157,9 +157,9 @@
     ```
 
 
-    *CALCULATE() 関数は、フィルター コンテキストを操作するために使用される強力な関数です。最初の引数では、式またはメジャーを受け取ります (メジャーは単に名前付きの式です)。その後の引数によって、フィルター コンテキストを変更できます。*
+    *CALCULATE() 関数は、フィルター コンテキストを操作するために使用される強力な関数です。最初の引数では、式またはメジャーを受け取ります (メジャーは単に名前付きの式です)。後続の引数では、フィルター コンテキストを変更できます。*
 
-    *REMOVEFILTERS() 関数では、アクティブなフィルターが削除されます。引数を指定しないことも、テーブル、列、または複数の列を引数に指定することもできます。*
+    *REMOVEFILTERS() 関数は、アクティブなフィルターを削除します。引数を受け取らないか、テーブル、列、または複数の列を引数として使用できます。*
 
     *この数式では、メジャーは、変更されたフィルター コンテキストの **Sales** 列の合計を評価します。これにより、**Region** テーブルの列に適用されているフィルターがすべて削除されます。*
 
@@ -253,7 +253,7 @@
 
     *IF() 関数内に埋め込まれた ISINSCOPE() 関数は、Region 列がレベル階層のレベルであるかどうかをテストするために使用されます。true の場合、DIVIDE() 関数が評価されます。false の部分がないため、Region 列がスコープ内にない場合は空白が返されます。*
 
-13. 「**Sales % Country**」メジャーでは、地域がスコープ内にある場合にのみ値を返すことがわかります。
+13. 「**Sales % Country**」 メジャーでは、リージョンがスコープ内にある場合にのみ値を返すことがわかります。
 
     ![画像 55](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image19.png)
 
@@ -280,9 +280,9 @@
 
     *グループの割合としての売上を得るために、2 つのフィルターを適用して、2 つの列に対するフィルターを効果的に削除できます。*
 
-15. 「**Sales ％ Group**」メジャーをマトリックス ビジュアルに追加します。
+15. **Sales % Group** メジャーをマトリックス ビジュアルに追加します。
 
-16. ビジュアルでこのメジャーの可読性を向上させるには、この改良された式で「**Sales % Group**」メジャーを上書きします。
+16. このメジャーの視覚的な可読性を向上させるには、この改良された式で **ales % Group** メジャーを上書きします。
 
 
     **DAX**
@@ -349,7 +349,7 @@
 
     ![画像 59](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image21.png)
 
-    *TOTALYTD() 関数によって、フィルター操作 (具体的には、時間フィルター操作) が実行されます。たとえば、2017 年 9 月 (会計年度の 3 番目の月) の YTD の売上を計算するには、**Date** テーブルのすべてのフィルターが削除され、年の初め (2017 年 7 月 1 日) から開始する日付の新しいフィルターに置き換えられ、コンテキスト内の日付期間 (2017 年 9 月 30 日) まで延長されます。*
+    *TOTALYTD() 関数によって、フィルター操作 (具体的には、時間フィルター操作) が実行されます。たとえば、2017 年 9 月 (会計年度の 3 番目の月) の YTD の売上を計算するには、「**日付**」 テーブルのすべてのフィルターが削除され、年の初め (2017 年 7 月 1 日) から開始する日付の新しいフィルターに置き換えられ、コンテキスト内の日付期間 (2017 年 9 月 30 日) まで延長されます。*
 
     *一般的な時間フィルター操作をサポートするために、DAX では多くのタイム インテリジェンス関数が利用できることに注意してください。*
 

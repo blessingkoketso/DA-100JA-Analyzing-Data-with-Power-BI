@@ -36,11 +36,11 @@
 
 8. **Power BI Desktop でのレポートの設計、パート 2**
 
-9. Power BI ダッシュボードの作成
+9. Power BI ダッシュボードを作成する
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: 同期スライサーを構成する**
 
@@ -54,31 +54,31 @@
 
 1. Microsoft Edge を開くには、タスク バーの Microsoft Edge プログラムのショートカットをクリックします。
 
-	![画像 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
+ 	![画像 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-2. Microsoft Edge ブラウザー ウィンドウで **https://powerbi.com** に移動します。
+1. Microsoft Edge ブラウザー ウィンドウで **https://powerbi.com** に移動します。
 
-	*ヒント: Microsoft Edge のお気に入りバーで Power BI サービスのお気に入りを使用することもできます。*
+ 	*ヒント: Microsoft Edge のお気に入りバーで Power BI サービスのお気に入りを使用することもできます。*
 
-3. 「**サインイン**」 (右上隅) をクリックします。
+1. 「**サインイン**」 (右上隅) をクリックします。
 
-	![画像 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
+ 	![画像 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
 
-4. 提供されたアカウント詳細を入力します。
+1. 提供されたアカウント詳細を入力します。
 
-5. パスワードを更新するように求められたら、指定されたパスワードを再入力し、新しいパスワードを入力して確認します。
+1. パスワードを更新するように求められたら、指定されたパスワードを再入力し、新しいパスワードを入力して確認します。
 
-	*重要: 新しいパスワードを必ず記録してください。*
+ 	*重要: 新しいパスワードを必ず記録してください。*
 
-6. サインイン プロセスを完了します。
+1. サインイン プロセスを完了します。
 
-7. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、「**はい**」をクリックします。
+1. Microsoft Edge からサインインを維持するかどうかを確認するメッセージが表示されたら、「**はい**」をクリックします。
 
-8. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの「**ナビゲーション**」ウィンドウで、「**マイ ワークスペース**」を展開します。
+1. Microsoft Edge ブラウザー ウィンドウの Power BI サービスの「**ナビゲーション**」ウィンドウで、「**マイ ワークスペース**」を展開します。
 
-	![画像 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
+ 	![画像 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
-9. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
+1. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
 
 ### タスク 2: 開始する – レポートの作成
 
@@ -110,7 +110,7 @@
 
 	![画像 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. 「**開く**」ウィンドウで、**D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Starter** フォルダーに移動します。
+8. 「**開く**」ウィンドウで、**D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** フォルダーに移動します。
 
 9. **Sales Analysis** ファイルを選択します。
 
@@ -152,7 +152,7 @@
 
 4. 「**表示**」リボン タブの「**ペインの表示**」グループ内で、「**スライサーの同期**」をクリックします。
 
-	![画像 1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
+	![画像　1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
 
 5. 「**視覚化**」ウィンドウの左側にある「**スライサーの同期**」ウィンドウで、2 番目の列 (同期を表す) で、「**概要**」ページと「**マイ パフォーマンス**」ページのチェック ボックスをオンにします。
 
@@ -204,7 +204,7 @@
 
 	![画像 100](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image22.png)
 
-	*フィールドがドリル スルー ウェルに追加されると、ボタンが自動的に追加されます。これを使うと、レポート ユーザーがドリル スルー元のページに戻ることができます。*
+	*フィールドがドリル スルー ウェル/領域に追加されると、ボタンが自動的に追加されます。これを使うと、レポート ユーザーがドリル スルー元のページに戻ることができます。*
 
 6. ページに**カード** ビジュアルを追加し、サイズを変更して、ボタンの右側に配置し、ページの残りの幅を埋めるようにします。
 
@@ -242,7 +242,7 @@
 
 	*ドリル スルー ページのデザインはほぼ完了です。次の演習では、条件付き書式を使用してページを拡張します。*
 
-## **演習 3: 条件付き書式の追加**
+## **演習 3：条件付き書式の追加**
 
 この演習では、条件付き書式を使用してドリル スルー ページを拡張します。設計が完了すると、ページは次のようになります。
 
@@ -254,7 +254,7 @@
 
 1. テーブル ビジュアルを選択します。
 
-2. ビジュアル フィールド ウィンドウの「**Profit Margin**」フィールドで、下向き矢印をクリックし、**「条件付き書式」 | 「アイコン」** を選択します。
+2. 「視覚化」ウィンドウで、「**Profit Margin**」値の上の下矢印をクリックして、次に「**条件付き書式**」を選択します。| 「**アイコン**」を選択します。
 
 	![画像 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
 
@@ -408,7 +408,7 @@
 
 7. 「**アクション**」セクションを展開し、「**種類**」ドロップダウンリストを「**ブックマーク**」に設定します。
 
-8. 「**ブックマーク**」ドロップダウン リストで、「**横棒グラフ オン**」を選択します。
+8. 「**ブックマーク**」 ドロップダウン リストで、「**横棒グラフ ON**」 を選択します。
 
 	![画像 128](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image51.png)
 
@@ -456,7 +456,7 @@
 
 	*次の演習では、Power BI サービスのレポートを探索します。*
 
-## **演習 5: レポートを見る**
+## **エクササイズ 5: レポートを見る**
 
 この演習では、Power BI サービスのレポートを探索します。
 

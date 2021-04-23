@@ -12,11 +12,11 @@
 
 - Power BI Desktop のオプションを設定する
 
-- ソース データに接続する
+- ソース データへの接続
 
-- ソースデータをプレビューする
+- ソース データのプレビュー
 
-- データ プレビューの技法を使用してデータをよりよく理解する
+- データ プレビュー手法を使用したデータへのよりよい理解
 
 ### **ラボ ストーリー**
 
@@ -40,9 +40,9 @@
 
 9. Power BI ダッシュボードを作成する
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: データの準備**
 
@@ -54,29 +54,29 @@
 
 1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
-	![画像 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
+ 	![画像 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+1. 「はじめに」ウィンドウを閉じるには、ウィンドウの右上にある「**X**」をクリックします。
 
-	![画像 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
+ 	![画像 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-3. ファイルを保存するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. ファイルを保存するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-4. **保存** を選択します。
+1. **保存** を選択します。
 
-	![画像 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
+ 	![画像 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-5. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+1. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-6. 「**ファイル名**」ボックスに「**Sales Analysis**」と入力します。
+1. 「**ファイル名**」ボックスに「**Sales Analysis**」と入力します。
 
-	![画像 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
+ 	![画像 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-7. 「**保存**」をクリックします。
+1. 「**保存**」をクリックします。
 
 	![画像 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
-	ヒント: 右上にある「**保存**」アイコンをクリックしてファイルを保存することもできます。
+	ヒント: 左上にある「**保存**」アイコンをクリックしてファイルを保存することもできます。
 
 	![画像 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
 
@@ -86,27 +86,27 @@
 
 1. Power BI Desktop で、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-2. 左側の「**オプションと設定**」を選択し、「**オプション**」を選択します。
+1. 左側の「**オプションと設定**」を選択し、「**オプション**」を選択します。
 
-	![画像 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
+ 	![画像　1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
 
-3. 左側にある「**オプション**」ウィンドウの「**現在のファイル**」グループで、「**データロード**」を選択します。
+1. 左側にある「**オプション**」ウィンドウの「**現在のファイル**」グループで、「**データの読み込み**」を選択します。
 
-	![画像 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![画像 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
 
-現在のファイルの「**データ ロード**」設定では、モデリング時の既定の動作を決定する設定オプションを使用できます。
+    現在のファイルの「**データ ロード**」設定では、モデリング時の既定の動作を決定する設定オプションを使用できます。
 
-4. **リレーションシップ** グループで、既にオンになっている 2 つのオプションをオフにします。
+1. **リレーションシップ** グループで、既にオンになっている 2 つのオプションをオフにします。
 
 	![画像 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-これら 2 つのオプションは、データ モデルを開発するときに役立ちますが、ラボ エクスペリエンスをサポートするために無効になっています。**Power BI Desktop へのデータの読み込み**ラボでリレーションシップを作成すると、それぞれを追加する理由がわかります。
+    これら 2 つのオプションは、データ モデルを開発するときに役立ちますが、ラボ エクスペリエンスをサポートするために無効になっています。**Power BI Desktop へのデータの読み込み**ラボでリレーションシップを作成すると、それぞれを追加する理由がわかります。
 
-5. 「**OK**」をクリックします。
+1. 「**OK**」をクリックします。
 
-	![画像 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![画像 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
 
-6. Power BI Desktop ファイルを保存します。
+1. Power BI Desktop ファイルを保存します。
 
 ### **タスク 3: SQL Server からデータを取得する**
 
@@ -196,7 +196,7 @@
 
 4. データ プレビュー ペインで、水平方向にスクロールして、すべての列を確認します。
 
-5. 最後の 5 つの列に**テーブル**または**値**のリンクが含まれていることに注意してください。
+5. 最後の 5 つの列に 「**テーブル**」 または 「**値**」 リンクが含まれていることに注意してください。
 
 	この 5 列は、データベース内の他のテーブルとのリレーションシップを表しています。これらはテーブルを結合するために使用できます。「**Power BI Desktop へのデータの読み込み**」ラボでテーブルを結合します。
 
@@ -262,7 +262,7 @@
 
 21. カーソルを **Ware House** バーの上に置くと、この値を持つ 5 つの行があることに注意してください。
 
-	**Power BI Desktop へのデータの読み込み**ラボでは、これらの 5 つの行に変換を適用してラベルを再適用します。
+    **Power BI Desktop へのデータの読み込み**ラボでは、これらの 5 つの行に変換を適用してラベルを再適用します。
 
 22. **クエリ** ウィンドウで、**DimSalesTerritory** を選択します。
 
@@ -329,13 +329,13 @@
 
 	![画像 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 
-	**ColorFormats** CSV ファイルには、商品の色ごとに 1 行が含まれています。各行には、背景とフォントの色を書式設定するための 16 進コードが記録されます。**Power BI Desktop へのデータの読み込み**ラボでは、このデータを **DimProduct** クエリ データと統合します。
+	**ColorFormats** CSV ファイルには、商品の色ごとに 1 行が含まれています。各行には、背景色とフォントの色を書式設定するための HEX コードが記録されます。**Power BI Desktop へのデータの読み込み**ラボでは、このデータを **DimProduct** クエリ データと統合します。
 
 ### **タスク 7: 仕上げ**
 
 このタスクではラボを完了します。
 
-1. 「**表示**」リボン タブの「**データ プレビュー**」グループ内から、次の 3 つのデータ プレビュー オプションをオフにします。
+1. 「**表示**」リボン タブの「** データ プレビュー**」グループ内から、次の 3 つのデータ プレビュー オプションをオフにします。
 
 	- 列の品質
 

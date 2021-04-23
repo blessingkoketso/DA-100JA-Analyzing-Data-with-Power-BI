@@ -36,11 +36,11 @@
 
 8. Power BI Desktop でのレポートの設計、パート 2
 
-9. Power BI ダッシュボードの作成
+9. Power BI ダッシュボードを作成する
 
-10. Power BI Desktop におけるデータ分析の実施
+10. Power BI でのページ分割されたレポートの作成
 
-11. Power BI でのページ分割されたレポートの作成
+11. Power BI Desktop におけるデータ分析の実施
 
 ## **演習 1: モデルのリレーションシップを作成する**
 
@@ -54,47 +54,47 @@
 
 1. Power BI Desktop を開くには、タスク バーにある Microsoft Power BI Desktop のショートカットをクリックします。
 
-	![画像 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
+    ![画像 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-2. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
+1. 「はじめに」ウィンドウを閉じるには、ウィンドウの左上にある「**X**」をクリックします。
 
-	![画像 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
+ 	![画像 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-3. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. スターター Power BI Desktop ファイルを開くには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-4. 「**レポートを開く**」を選択します。
+1. 「**レポートを開く**」を選択します。
 
-	![画像 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
+ 	![画像 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
 
-5. 「**レポートを参照**」をクリックします。
+1. 「**レポートを参照**」をクリックします。
 
-	![画像 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
+ 	![画像 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-6. 「**開く**」ウィンドウで、**D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** フォルダーに移動します。
+1. 「**開く**」ウィンドウで、**D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop\Starter** フォルダーに移動します。
 
-7. **Sales Analysis** ファイルを選択します。
+1. **Sales Analysis** ファイルを選択します。
 
-8. 「**開く**」をクリックします。
+1. 「**開く**」をクリックします。
 
-	![画像 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
+ 	![画像 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
 
-9. 開いている情報ウィンドウをすべて閉じます。
+1. 開いている情報ウィンドウをすべて閉じます。
 
-10. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
+1. ファイルのコピーを作成するには、「**ファイル**」リボン タブをクリックして、バックステージ ビューを開きます。
 
-11. 「**名前を付けて保存**」を選択します。
+1. 「**名前を付けて保存**」を選択します。
 
-	![画像 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
+ 	![画像 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-12. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
+1. 変更を適用するかどうかを確認するメッセージが表示されたら、「**適用**」をクリックします。
 
-	![画像 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
+ 	![画像 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-13. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
+1. 「**名前を付けて保存**」ウィンドウで、**D:\DA100\MySolution** フォルダーに移動します。
 
-14. **保存** をクリックします。
+1. 「**保存**」をクリックします。
 
-	![画像 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
+ 	![画像 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
 ### **タスク 2: モデル リレーションシップを作成する**
 
@@ -102,7 +102,7 @@
 
 1. Power BI Desktop の左側で、「**モデル**」ビュー アイコンをクリックします。
 
-	![画像 1](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image9.png)
+	![画像　1](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image9.png)
 
 2. 7 つのテーブルがすべて表示されていない場合は、水平方向に右へスクロールし、テーブルをドラッグして、すべてを同時に表示できるように、より近づけて配置します。
 
@@ -122,7 +122,7 @@
 
 	![画像 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image12.png)
 
-	*ラボでは、フィールドを参照するために省略表記を使用します。次のようになります: **Product | Category**。この例では、**Salesperson** はテーブル名、**Salesperson** はフィールド名です。*
+	*ラボでは、フィールドを参照するために省略表記を使用します。次のようになります。**Product | Category**。この例では、**Salesperson** はテーブル名、**Salesperson** はフィールド名です。*
 
 6. テーブルに列を追加するには、「**フィールド**」ウィンドウで、**Sales | Sales** フィールドをオンにします。
 
@@ -130,7 +130,7 @@
 
 	![画像 330](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image13.png)
 
-	*問題は、テーブルが異なるテーブルのフィールドに基づいていることです。各製品カテゴリには、そのカテゴリの売上が表示されることが想定されています。ただし、これらのテーブル間にはモデルのリレーションシップがないため、**Sales** テーブルはフィルタリングされません。次に、テーブル間でフィルターを伝達するリレーションシップを追加します。*
+	*問題は、テーブルが異なるテーブルのフィールドに基づいていることです。各製品カテゴリには、そのカテゴリの売上が表示されることが想定されています。ただし、これらのテーブル間にはモデルの関係がないため、**Sales** テーブルはフィルタリングされません。次に、テーブル間でフィルターを伝達するリレーションシップを追加します。*
 
 8. 「**モデリング**」リボン タブの「**リレーションシップ**」グループ内から、「**リレーションシップの管理**」をクリックします。
 
@@ -180,7 +180,7 @@
 
 	***Product** テーブルに適用されたフィルターは、**Sales** テーブルに伝達されるようになりました。*
 
-20. モデル ビューに切り替えて、2 つのテーブルの間にコネクタがあることを確認します(テーブルが互いに隣接しているかどうかは問題になりません)。 
+20. モデル ビューに切り替えて、2 つのテーブルの間にコネクタがあることを確認します(テーブルが互いに隣接しているかどうかは問題になりません)。
 
 	![画像 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
@@ -396,7 +396,7 @@
 
 	![画像 356](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image39.png)
 
-## **演習 3: モデル インターフェイスを確認する**
+## **演習 3：モデル インターフェイスを確認する**
 
 この演習では、レポート ビューに切り替えて、モデル インターフェイスを確認します。
 
@@ -406,7 +406,7 @@
 
 1. レポート ビューに切り替えます。
 
-2. 「**フィールド**」 ウィンドウで、次のことに注意してください。
+2. 「**フィールド**」ウィンドウで、次のことに注意してください。
 
 	- 列、階層、およびそれらのレベルはフィールドであり、レポートのビジュアルを構成するために使用できます
 
@@ -514,7 +514,7 @@
 
 12. 2 つのメジャーをテストするには、最初にレポート ページでテーブル ビジュアルを選択します。
 
-13. 「**フィールド**」ウィンドウで、2 つのメジャーを確認します。
+13. 「**フィールド**」 ウィンドウで、2 つのメジャーを確認します。
 
 	![画像 375](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image55.png)
 
