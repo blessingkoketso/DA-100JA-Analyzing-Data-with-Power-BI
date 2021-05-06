@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: 'Power BI Desktop でのレポートの設計、パート 2'
+    module: 'モジュール 7: レポートの作成'
+---
 
 # **Power BI Desktop でのレポートの設計、パート 2**
 
