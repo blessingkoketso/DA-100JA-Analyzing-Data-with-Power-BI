@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop でのデータの準備'
     module: 'モジュール 2: Power BI でデータを準備する'
