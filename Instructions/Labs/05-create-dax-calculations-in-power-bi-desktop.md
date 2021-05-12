@@ -180,7 +180,7 @@ lab:
 
 	```
 	Date =  
-	‎CALENDARAUTO(6)
+	CALENDARAUTO(6)
 	```
 
 
@@ -392,7 +392,7 @@ lab:
 
 	```
 	Avg Price =  
-	‎AVERAGE(Sales[Unit Price])
+	AVERAGE(Sales[Unit Price])
 	```
 
 
