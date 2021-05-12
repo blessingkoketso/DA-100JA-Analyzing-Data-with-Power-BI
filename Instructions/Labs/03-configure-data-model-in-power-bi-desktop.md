@@ -256,7 +256,7 @@ lab:
 
 10. **Ctrl** キーを押しながら、**Font Color Format** 列を選択します。
 
-11. 「**プロパティ**」ウィンドウの「**表示フォルダ**」ボックスに、「**書式設定**」と入力します。
+11. 「**プロパティ**」ウィンドウの「**表示フォルダ**」ボックスに、「**Formatting**」と入力します。
 
 	![画像 348](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image29.png)
 
