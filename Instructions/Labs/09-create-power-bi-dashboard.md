@@ -170,7 +170,7 @@ lab:
 
 1. Microsoft Edge ブラウザー ウィンドウの Power BI サービスで、**Sales Analysis** レポートを開きます。
 
-2. 「**概要**」ページで、「**Year**」スライサーを「**FY2020**」に設定します。
+2. 「**Overview**」ページで、「**Year**」スライサーを「**FY2020**」に設定します。
 
     ![画像 4](Linked_image_Files/09-create-power-bi-dashboard_image17.png)
 
