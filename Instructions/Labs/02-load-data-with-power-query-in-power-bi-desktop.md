@@ -522,7 +522,7 @@ lab:
 
 	![画像 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
 
-2. クエリの名前を「**ターゲット**」に変更します。
+2. クエリの名前を「**Target**」に変更します。
 
 3. 12 か月の列 (**M01**-**M12**) のピボットを解除するには、最初に **Year** および **EmployeeID** 列ヘッダーを複数選択します。
 
