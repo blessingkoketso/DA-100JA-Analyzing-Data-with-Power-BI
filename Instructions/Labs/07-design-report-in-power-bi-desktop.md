@@ -552,7 +552,7 @@ lab:
 
 20. マトリックス ビジュアルで、プラス (+) ボタンを使用して、**Fiscal** 階層を展開します。
 
-21. 「**マイ パフォーマンス**」ページを選択します。
+21. 「**My Performance**」ページを選択します。
 
 	![画像 89](Linked_image_Files/07-design-report-in-power-bi-desktop_image69.png)
 
