@@ -145,7 +145,7 @@ lab:
 
 	*ヒント: ページ名をダブルクリックして名前を変更することもできます。*
 
-2. ページの名前を「**概要**」に変更し、**Enter** キーを押します。
+2. ページの名前を「**Overview**」に変更し、**Enter** キーを押します。
 
 	![画像 37](Linked_image_Files/07-design-report-in-power-bi-desktop_image14.png)
 
@@ -309,7 +309,7 @@ lab:
 
 	![画像 42](Linked_image_Files/07-design-report-in-power-bi-desktop_image38.png)
 
-2. ページを「**利益**」という名前に変更します。
+2. ページを「**Profit**」という名前に変更します。
 
 	![画像 43](Linked_image_Files/07-design-report-in-power-bi-desktop_image39.png)
 
@@ -378,7 +378,7 @@ lab:
 
 ![3 つのビジュアルで構成されたページ 3 のイメージ。](Linked_image_Files/07-design-report-in-power-bi-desktop_image47.png)
 
-1. 新しいページを作成し、「**マイ パフォーマンス**」に名前を変更します。
+1. 新しいページを作成し、「**My Performance**」に名前を変更します。
 
 	*行レベルのセキュリティは、ユーザーが販売地域とターゲットのデータのみを表示するように構成されていることを思い出すかもしれません。このレポートを営業担当者に配布すると、販売実績の結果のみが表示されます。*
 
@@ -454,7 +454,7 @@ lab:
 
 このタスクでは、レポートを発行します。
 
-1. 「**概要**」ページを選択します。
+1. 「**Overview**」ページを選択します。
 
 2. Power BI Desktop ファイルを保存します。
 
@@ -488,7 +488,7 @@ lab:
 
 	![画像 93](Linked_image_Files/07-design-report-in-power-bi-desktop_image62.png)
 
-2. **販売分析**レポートとデータセットに注目して、ワークスペースの内容を確認します。
+2. **Sales Analysis**レポートとデータセットに注目して、ワークスペースの内容を確認します。
 
 	*Power BI Desktop ファイルを発行したとき、データ モデルはデータセットとして発行されました。*
 
@@ -496,9 +496,9 @@ lab:
 
 	![画像 94](Linked_image_Files/07-design-report-in-power-bi-desktop_image63.png)
 
-3. レポートを開くには、**販売分析** レポートをクリックします。
+3. レポートを開くには、**Sales Analysis** レポートをクリックします。
 
-4. 左側の「**ページ**」ウィンドウで、「**概要**」ページを選択します。 
+4. 左側の「**ページ**」ウィンドウで、「**Overview**」ページを選択します。 
 
 5. **Regions** スライサーで、**Ctrl** キーを押しながら複数の地域を選択します。
 
@@ -538,11 +538,11 @@ lab:
 
 16. 「**Teams のチャット**」以外の各オプションを試してみてください。
 
-17. 左側の「**ページ**」ウィンドウで、「**利益**」ページを選択します。
+17. 左側の「**ページ**」ウィンドウで、「**Profit**」ページを選択します。
 
 	![画像 84](Linked_image_Files/07-design-report-in-power-bi-desktop_image68.png)
 
-18. **Region** スライサーは、「**概要**」ページの **Region** スライサーとは異なる選択を行うことに注目してください。
+18. **Region** スライサーは、「**Overview**」ページの **Region** スライサーとは異なる選択を行うことに注目してください。
 
 	*スライサーが同期されていません。**Power BI Desktop でのレポートの設計、パート 2** ラボでは、ページ間で同期するようにレポートのデザインを修正します。*
 
@@ -552,7 +552,7 @@ lab:
 
 20. マトリックス ビジュアルで、プラス (+) ボタンを使用して、**Fiscal** 階層を展開します。
 
-21. 「**マイ パフォーマンス**」ページを選択します。
+21. 「**My Performance**」ページを選択します。
 
 	![画像 89](Linked_image_Files/07-design-report-in-power-bi-desktop_image69.png)
 
