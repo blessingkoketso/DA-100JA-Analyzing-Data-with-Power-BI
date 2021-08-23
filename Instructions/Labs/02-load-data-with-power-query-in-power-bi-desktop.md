@@ -459,7 +459,7 @@ lab:
 
 	![画像 5665](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image48.png)
 
-7. 「**カスタム列の式**」ボックスに、次の式 (等号記号の後) を入力します。
+7. 「**カスタム列の式**」ボックスに、次の式 を(等号記号の後に) 入力します。
 
 8. **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** ファイルから式をコピーすると便利です。
 
