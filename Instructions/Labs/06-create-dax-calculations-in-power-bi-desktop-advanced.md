@@ -392,7 +392,7 @@ lab:
 
 3. 新しいメジャーは、最初の 12 か月間は空白を返します (会計年度の 2017 年以前には売上が記録されていないため)。
 
-4. **2018 年 7 月**の「**Sales YoY Growth**」メジャー値が ** 2017 年 7 月**の「**Sales**」値であることに注意してください。
+4. **2018 年 7 月**の「**Sales YoY Growth**」メジャー値が **2017 年 7 月**の「**Sales**」値であることに注意してください。
 
     ![画像 61](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image22.png)
 
