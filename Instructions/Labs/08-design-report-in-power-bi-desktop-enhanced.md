@@ -1,8 +1,9 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop でのレポートの設計、パート 2'
-    module: 'モジュール 7: レポートの作成'
+    module: 'モジュール 7 - レポートを作成する'
 ---
+
 
 # **Power BI Desktop でのレポートの設計、パート 2**
 
@@ -491,15 +492,3 @@ lab:
 	![画像 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
 
 2. Microsoft Edge ブラウザー ウィンドウを開いたままにします。
-
-3. Power BI Desktop で、「**マイ パフォーマンス**」ページに移動し、「**フィルター**」ウィンドウで「**営業担当者**」フィルター カードを削除します。
-
-	![画像 132](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image57.png)
-
-4. 「**概要**」ページを選択します。
-
-5. Power BI Desktop ファイルを保存し、Power BI にレポートを再発行します。
-
-6. Power BI Desktop を開いたままにします。
-
-	***Power BI コンテンツの公開と共有**ラボでレポートを共有すると、レポートは行レベルのセキュリティを施行します。*

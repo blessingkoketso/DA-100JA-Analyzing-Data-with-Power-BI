@@ -1,8 +1,9 @@
----
+﻿---
 lab:
-    title: 'Power BI ダッシュボードの作成'
-    module: 'モジュール 8: ダッシュボードの作成'
+    title: 'Power BI ダッシュボードを作成する'
+    module: 'モジュール 8 - ダッシュボードを作成する'
 ---
+
 
 # **Power BI ダッシュボードの作成**
 
@@ -242,7 +243,7 @@ lab:
 
     ![画像 16](Linked_image_Files/09-create-power-bi-dashboard_image30.png)
 
-21. 会社のログを追加するには、メニュー バーの「**編集**」をクリックし、「**タイルの追加**」をクリックします。
+21. 会社のロゴを追加するには、メニュー バーの「**編集**」をクリックし、「**タイルの追加**」をクリックします。
 
     ![画像 46](Linked_image_Files/09-create-power-bi-dashboard_image31.png)
 
