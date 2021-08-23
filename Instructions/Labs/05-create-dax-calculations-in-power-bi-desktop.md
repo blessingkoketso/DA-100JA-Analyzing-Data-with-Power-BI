@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop で DAX 計算を作成する (パート 1)'
     module: 'モジュール 5 - Power BI で DAX を使用してモデルを作成する'
