@@ -127,7 +127,7 @@ lab:
 
 	![画像 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
-8. フィルターを割り当てるには、**Salesperson (Performance)** テーブルの省略記号 (..) 文字をクリックし、「**フィルターの追加**」** | [UPN]** を選択します。
+8. フィルターを割り当てるには、**Salesperson (Performance)** テーブルの省略記号 (..) 文字をクリックし、「**フィルターの追加**」 | **[UPN]** を選択します。
 
 	![画像 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
 
