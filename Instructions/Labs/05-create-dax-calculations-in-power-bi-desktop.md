@@ -1,8 +1,9 @@
 ---
 lab:
     title: 'Power BI Desktop での DAX 計算の作成、パート 1'
-    module: 'モジュール 5: Power BI で DAX を使用してモデル計算を作成する'
+    module: 'モジュール 5 - Power BI で DAX を使用してモデルを作成する'
 ---
+
 
 # **Power BI Desktop での DAX 計算の作成、パート 1**
 
@@ -110,7 +111,7 @@ lab:
 
 	![画像 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*利便性のために、このラボのすべての DAX 定義は、**D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** ファイルからコピーできます。*
+	*利便性のために、このラボのすべての DAX 定義は、**ファイルD:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** にあるスニペット ファイルからコピーできます。*
 
 	*計算テーブルを作成するには、最初にテーブル名を入力し、続けて等号 (=) と、テーブルが返される DAX 式を入力します。テーブル名はデータ モデルに存在できません。*
 
@@ -186,6 +187,7 @@ lab:
 
 	![画像 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
+	
 	*CALENDARAUTO() 関数では、日付値で構成される単一列のテーブルが返されます。"auto" 動作は、すべてのデータ モデル日付列をスキャンして、データ モデルに格納されている最も古い日付と最新の日付値を判別します。次に、この範囲内の日付ごとに 1 行を作成し、範囲をいずれかの方向に拡張して、完全な年のデータが確実に格納されるようにします。*
 
 	*この関数は、1 年の最後の月数である 1 つの省略可能な引数を受け取ることができます。省略した場合、その値は 12 になります。12 月が年度の最終月であるという意味です。この場合、6 が入力されます。これは、6 月がその年の最後の月であることを意味します。*
@@ -203,6 +205,8 @@ lab:
 ### **タスク 4:** **計算列を作成する**
 
 このタスクでは、別の期間によるフィルター処理とグループ化を有効にする列を追加します。また、計算列を作成して、他の列の並べ替え順序の制御も行います。
+
+*利便性のために、このラボのすべての DAX 定義は、**ファイルD:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** にあるスニペット ファイルからコピーできます。*
 
 1. 「**テーブル ツール**」コンテキスト リボンの「**計算**」グループ内から、「**新しい列**」をクリックします。
 

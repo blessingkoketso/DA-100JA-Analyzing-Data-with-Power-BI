@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Power BI Desktop でのデータの準備'
-    module: 'モジュール 2: Power BI でデータを準備する'
+    module: 'モジュール 2 - Power BI でのデータの取得'
 ---
 
 # **Power BI Desktop でのデータの準備**
@@ -104,7 +104,7 @@ lab:
 
 	![画像 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-    これら 2 つのオプションは、データ モデルを開発するときに役立ちますが、ラボ エクスペリエンスをサポートするために無効になっています。**Power BI Desktop へのデータの読み込み**ラボでリレーションシップを作成すると、それぞれを追加する理由がわかります。
+    これらの 2 つのオプションを有効にすることは、データ モデルを開発する場合に役立ちますが、ラボ エクスペリエンスをサポートするために以前に無効にしています。**Power BI Desktop へのデータの読み込み**ラボでリレーションシップを作成すると、それぞれを追加する理由がわかります。
 
 1. 「**OK**」をクリックします。
 
@@ -130,35 +130,21 @@ lab:
 
 	![画像 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
 
-4. 既定の認証は、「**現在の資格情報を使用**」であることに注意してください。
-
-	![画像 23](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image14.png)
-
-	Power BI Desktopは、ID を使用して SQL Server インスタンスに接続します。接続しようとしているデータ ソースに対する読み取りアクセス許可があります。
-
-5. 「**接続**」をクリックします。
-
-	![画像 25](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image15.png)
-
-6. 暗号化のサポートに関するメッセージが表示されたら、「**OK**」をクリックします。
-
-	![画像 27](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image16.png)
-
-7. 「**ナビゲーター**」ウィンドウの左側で、**AdventureWorksDW2020** データベースを展開します。
+4. 「**ナビゲーター**」ウィンドウの左側で、**AdventureWorksDW2020** データベースを展開します。
 
 	**AdventureWorksDW2020** データベースは、 **AdventureWorksDW2017** サンプル データベースに基づいています。コース ラボの学習の目的をサポートするために変更されています。
 
 	![画像 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
 
-8. **DimEmployee** テーブルを選択します (ただし、チェックはしません)。
+5. **DimEmployee** テーブルを選択します (ただし、チェックはしません)。
 
 	![画像 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
 
-9. 右側のウィンドウで、テーブル データのプレビューに注目します。
+6. 右側のウィンドウで、テーブル データのプレビューに注目します。
 
 	プレビュー データで、列と行のサンプルを確認できます。
 
-10. クエリを作成するには、次の 6 つのテーブルをオンにします。
+7. クエリを作成するには、次の 6 つのテーブルの横のチェックボックスを選択します。
 
 	- DimEmployee
 
@@ -172,7 +158,7 @@ lab:
 
 	- FactResellerSales
 
-11. 選択したテーブルのデータに変換を適用するには、「**データの変換**」をクリックします。
+8. 選択したテーブルのデータに変換を適用するには、「**データの変換**」をクリックします。
 
 	このラボではデータを変換しません。このラボの目的は、**Power Query エディター** ウィンドウでのデータの探索とプロファイリングに焦点を当てています。
 

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Power BI Desktop へのデータの読み込み'
-    module: 'モジュール 3: Power BI でのデータのクリーン化、変換、読み込み'
+    module: 'モジュール 3 - Power BI でのデータのクリーン化、変換、読み込み'
 ---
 
 # **Power BI Desktop へのデータの読み込み**
@@ -670,7 +670,7 @@ lab:
 
 	![画像 5692](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image75.png)
 
-8. 「**マージ**」ウィンドウで、「**OK**」をクリックします。
+8. 「**マージ**」ウィンドウで、左外部の選択を維持する規定の「**結合の種類**」 - を使用して、「**OK**」をクリックします。
 
 	![画像 5693](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image76.png)
 
@@ -726,7 +726,7 @@ lab:
 
 	- Sales
 
-	- Target
+	- Targets
 
 	- ColorFormats (データ モデルには読み込まれません)
 

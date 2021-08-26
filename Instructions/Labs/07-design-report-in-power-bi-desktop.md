@@ -1,8 +1,9 @@
 ---
 lab:
     title: 'Power BI Desktop でのレポートの設計、パート 1'
-    module: 'モジュール 7: レポートの作成'
+    module: 'モジュール 7 - レポートを作成する'
 ---
+
 
 # **Power BI Desktop でのレポートの設計、パート 1**
 
@@ -380,31 +381,27 @@ lab:
 
 1. 新しいページを作成し、「**My Performance**」に名前を変更します。
 
-	*行レベルのセキュリティは、ユーザーが販売地域とターゲットのデータのみを表示するように構成されていることを思い出すかもしれません。このレポートを営業担当者に配布すると、販売実績の結果のみが表示されます。*
+1. 行レベルのセキュリティ フィルターのパフォーマンスをシミュレートするには、**Salesperson (Performance) | Salesperson** フィールドをフィルター ウィンドウのページ レベル フィルターにドラッグします。
+	
+	![フィルター ウィンドウの Salesperson フィールドの画像。](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-2. レポートのデザインとテスト中に行レベルのセキュリティ フィルターをシミュレートするには、「**Salesperson (Performance) | Salesperson**」フィールドを「**このページでフィルター**」ウェル/領域内の「**フィルター**」ウィンドウに追加します。
+1. 「**Michael Blythe**」を選択します。「**マイ パフォーマンス**」レポート ページの日付は、Michael Blythe のみのデータを表示するためにフィルター処理されています。
 
-3. フィルター カードで、営業担当者のリストを下にスクロールし、「**Michael Blythe**」を確認します。
-
-	![画像 73](Linked_image_Files/07-design-report-in-power-bi-desktop_image48.png)
-
-	*レポートを Power BI に発行する前に、このフィルターを削除するように指示されます。*
-
-4. 「**Date | Year**」フィールドに基づいてドロップダウン スライサーを追加し、サイズを変更してページの左上隅に配置します。
+1. 「**Date | Year**」フィールドに基づいてドロップダウン スライサーを追加し、サイズを変更してページの左上隅に配置します。
 
 	![画像 70](Linked_image_Files/07-design-report-in-power-bi-desktop_image49.png)
 
-5. スライサーで、ページを **FY2019** でフィルタリングするように設定します。
+1. スライサーで、ページを **FY2019** でフィルタリングするように設定します。
 
 	![画像 71](Linked_image_Files/07-design-report-in-power-bi-desktop_image50.png)
 
-6. **複数行カード** ビジュアルを追加し、スライサーの右側に配置され、ページの残りの幅を塗りつぶすサイズと位置を変更します。
+1. **複数行カード** ビジュアルを追加し、スライサーの右側に配置され、ページの残りの幅を塗りつぶすサイズと位置を変更します。
 
 	![画像 56](Linked_image_Files/07-design-report-in-power-bi-desktop_image51.png)
 
 	![画像 74](Linked_image_Files/07-design-report-in-power-bi-desktop_image52.png)
 
-7. ビジュアルに次の 4 つのフィールドを追加します。
+1. ビジュアルに次の 4 つのフィールドを追加します。
 
 	- Sales | Sales
 
@@ -414,7 +411,7 @@ lab:
 
 	- Targets | Variance Margin
 
-8. ビジュアルの書式設定:
+1. ビジュアルの書式設定:
 
 	- 「**データ ラベル**」グループで、「**テキスト サイズ**」プロパティを **28pt** に増やします。
 
@@ -422,13 +419,13 @@ lab:
 
 	![画像 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
 
-9. **クラスター棒グラフ** ビジュアルを追加し、複数行カード ビジュアルの下に位置し、ページの残りの高さと、複数行カード ビジュアルの幅の半分になるようにサイズを変更します。
+1. **クラスター棒グラフ** ビジュアルを追加し、複数行カード ビジュアルの下に位置し、ページの残りの高さと、複数行カード ビジュアルの幅の半分になるようにサイズを変更します。
 
 	![画像 59](Linked_image_Files/07-design-report-in-power-bi-desktop_image54.png)
 
 	![画像 78](Linked_image_Files/07-design-report-in-power-bi-desktop_image55.png)
 
-10. 次のフィールドをビジュアル ウェル/領域に追加します。
+1. 次のフィールドをビジュアル ウェル/領域に追加します。
 
 	- 軸: **Date | Month**
 
@@ -436,13 +433,13 @@ lab:
 
 	![画像 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
-11. ビジュアルのコピーを作成するには、**Ctrl + C** キーを押し、**Ctrl + V** キーを押します。
+1. ビジュアルのコピーを作成するには、**Ctrl + C** キーを押し、**Ctrl + V** キーを押します。
 
-12. 新しいビジュアルを元のビジュアルの右側に配置します。
+1. 新しいビジュアルを元のビジュアルの右側に配置します。
 
 	![画像 82](Linked_image_Files/07-design-report-in-power-bi-desktop_image57.png)
 
-13. 視覚化の種類を変更するには、「**視覚化**」ウィンドウで、**クラスター化された縦棒グラフ**を選択します。
+1. 視覚化の種類を変更するには、「**視覚化**」ウィンドウで、**クラスター化された縦棒グラフ**を選択します。
 
 	![画像 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
 
