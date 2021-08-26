@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop へのデータの読み込み'
     module: 'モジュール 3 - Power BI でのデータのクリーン化、変換、読み込み'
