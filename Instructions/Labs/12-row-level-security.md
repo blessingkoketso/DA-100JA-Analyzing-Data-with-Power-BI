@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '行レベルのセキュリティを実行する'
     module: 'モジュール 13 - 行レベルのセキュリティ'
@@ -73,7 +73,7 @@ lab:
 
 	![画像 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. 「**開く**」ウィンドウで、**D:\DA100\Labs\row-level-security\Starter** フォルダーに移動します。
+1. 「**開く**」ウィンドウで、**D:\DA100\Labs\12-row-level-security\Starter** フォルダーに移動します。
 
 1. **Sales Analysis** ファイルを選択します。
 

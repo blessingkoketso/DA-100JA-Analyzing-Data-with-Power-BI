@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop での DAX 計算の作成、パート 2'
     module: 'モジュール 5 - Power BI で DAX を使用してモデルを作成する'
@@ -42,6 +42,8 @@ lab:
 10. Power BI でのページ分割されたレポートの作成
 
 11. Power BI Desktop におけるデータ分析の実施
+
+12. 行レベルのセキュリティを実行する
 
 ## **演習 1: フィルター コンテキストを操作する**
 
@@ -186,13 +188,13 @@ lab:
 
     ```
     Sales % All Region =  
-    DIVIDE(  
-     SUM(Sales[Sales]),  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     REMOVEFILTERS(Region)  
-     )  
-    )
+    ‎DIVIDE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ REMOVEFILTERS(Region)  
+    ‎ )  
+    ‎)
     ```
 
 
@@ -213,13 +215,13 @@ lab:
 
     ```
     Sales % Country =  
-    DIVIDE(  
-     SUM(Sales[Sales]),  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     REMOVEFILTERS(Region[Region])  
-     )  
-    )
+    ‎DIVIDE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ REMOVEFILTERS(Region[Region])  
+    ‎ )  
+    ‎)
     ```
 
 
@@ -243,16 +245,16 @@ lab:
 
     ```
     Sales % Country =  
-    IF(  
-     ISINSCOPE(Region[Region]),  
-     DIVIDE(  
-     SUM(Sales[Sales]),  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     REMOVEFILTERS(Region[Region])  
-     )  
-     )  
-    )
+    ‎IF(  
+    ‎ ISINSCOPE(Region[Region]),  
+    ‎ DIVIDE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ REMOVEFILTERS(Region[Region])  
+    ‎ )  
+    ‎ )  
+    ‎)
     ```
 
 
@@ -270,16 +272,16 @@ lab:
 
     ```
     Sales % Group =  
-    DIVIDE(  
-     SUM(Sales[Sales]),  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     REMOVEFILTERS(  
-     Region[Region],  
-     Region[Country]  
-     )  
-     )  
-    )
+    ‎DIVIDE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ REMOVEFILTERS(  
+    ‎ Region[Region],  
+    ‎ Region[Country]  
+    ‎ )  
+    ‎ )  
+    ‎)
     ```
 
 
@@ -295,20 +297,20 @@ lab:
 
     ```
     Sales % Group =  
-    IF(  
-     ISINSCOPE(Region[Region])  
-     || ISINSCOPE(Region[Country]),  
-     DIVIDE(  
-     SUM(Sales[Sales]),  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     REMOVEFILTERS(  
-     Region[Region],  
-     Region[Country]  
-     )  
-     )  
-     )  
-    )
+    ‎IF(  
+    ‎ ISINSCOPE(Region[Region])  
+    ‎ || ISINSCOPE(Region[Country]),  
+    ‎ DIVIDE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ REMOVEFILTERS(  
+    ‎ Region[Region],  
+    ‎ Region[Country]  
+    ‎ )  
+    ‎ )  
+    ‎ )  
+    ‎)
     ```
 
 
@@ -340,7 +342,7 @@ lab:
 
     ```
     Sales YTD =  
-    TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
+    ‎TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
     ```
 
 
@@ -370,17 +372,17 @@ lab:
 
     ```
     Sales YoY Growth =  
-    VAR SalesPriorYear =  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     PARALLELPERIOD(  
-     'Date'[Date],  
-     -12,  
-     MONTH  
-     )  
-     )  
-    RETURN  
-     SalesPriorYear
+    ‎VAR SalesPriorYear =  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ PARALLELPERIOD(  
+    ‎ 'Date'[Date],  
+    ‎ -12,  
+    ‎ MONTH  
+    ‎ )  
+    ‎ )  
+    ‎RETURN  
+    ‎ SalesPriorYear
     ```
 
 
@@ -406,20 +408,20 @@ lab:
 
     ```
     Sales YoY Growth =  
-    VAR SalesPriorYear =  
-     CALCULATE(  
-     SUM(Sales[Sales]),  
-     PARALLELPERIOD(  
-     'Date'[Date],  
-     -12,  
-     MONTH  
-     )  
-     )  
-    RETURN  
-     DIVIDE(  
-     (SUM(Sales[Sales]) - SalesPriorYear),  
-     SalesPriorYear  
-     )
+    ‎VAR SalesPriorYear =  
+    ‎ CALCULATE(  
+    ‎ SUM(Sales[Sales]),  
+    ‎ PARALLELPERIOD(  
+    ‎ 'Date'[Date],  
+    ‎ -12,  
+    ‎ MONTH  
+    ‎ )  
+    ‎ )  
+    ‎RETURN  
+    ‎ DIVIDE(  
+    ‎ (SUM(Sales[Sales]) - SalesPriorYear),  
+    ‎ SalesPriorYear  
+    ‎ )
     ```
 
 
