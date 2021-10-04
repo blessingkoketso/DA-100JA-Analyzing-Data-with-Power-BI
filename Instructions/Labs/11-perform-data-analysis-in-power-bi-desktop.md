@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop におけるデータ分析の実施'
     module: 'モジュール 10 - 高度な分析を実行する'
