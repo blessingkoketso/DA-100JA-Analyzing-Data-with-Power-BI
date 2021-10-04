@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop でのデータのモデル化、パート 2'
     module: 'モジュール 4 - Power BI におけるデータ モデルを設計する'
