@@ -463,7 +463,7 @@ lab:
 
 7. 「**カスタム列の式**」ボックスに、次の式 を(等号記号の後に) 入力します。
 
-8. **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** ファイルから式をコピーすると便利です。
+8. **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** ファイルから式をコピーすると便利です。
 
 
    **Power Query**
@@ -524,7 +524,7 @@ lab:
 
 	![画像 5672](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image53.png)
 
-2. クエリの名前を「**Target**」に変更します。
+2. クエリの名前を「**Targets**」に変更します。
 
 3. 12 か月の列 (**M01**-**M12**) のピボットを解除するには、最初に **Year** および **EmployeeID** 列ヘッダーを複数選択します。
 
