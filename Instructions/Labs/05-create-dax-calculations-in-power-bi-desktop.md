@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop での DAX 計算の作成、パート 1'
     module: 'モジュール 5 - Power BI で DAX を使用してモデルを作成する'
@@ -312,23 +312,24 @@ lab:
 
 2. **Date** テーブルで、**MonthKey** 列を非表示にします (「**非表示**」を **はい** に設定します)。
 
-3. **Date** テーブルで、次の 3 つのレベルを持つ **Fiscal** という名前の階層を作成します。
+3. 右側の「**フィールド**」画面で **Date** テーブルを選択し、**Year** 列で右クリックし、「**階層の作成**」を選択します。 
 
-	- Year
-
+4. 新しく作成した階層を右クリックして「**名前を変更**」をクリックし、「**Fiscal**」という名前に変更します。 
+5. 次の 2 つの残りのフィールドを Fiscal 階層に追加します。これを行うには、「フィールド」画面でこれらを選択してから右クリックし、「**階層に追加**」、「**Fiscal**」の順に選択します。
+	
 	- Quarter
 
 	- Month
 
 	![画像 24](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31.png)
 
-4. 次の 2 つのモデル リレーションシップを作成します。
+6. 次の 2 つのモデル リレーションシップを作成します。
 
 	- **Date | Date** から **Sales | OrderDate**
 
 	- **Date | Date** から **Targets | TargetMonth**
 
-5. 次の 2 つの列を非表示にします。
+7. 次の 2 つの列を非表示にします。
 
 	- Sales | OrderDate
 
